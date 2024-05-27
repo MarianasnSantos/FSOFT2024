@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/lucca/CLionProjects/TastyApp
+# Install script for directory: C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

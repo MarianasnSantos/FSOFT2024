@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug"
+			"value" : "c:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1\u00ba ANO/2\u00ba semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1\u00ba ANO/2\u00ba semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/lucca/CLionProjects/TastyApp"
+			"value" : "C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1\u00ba ANO/2\u00ba semestre/FSOFT/GitHub/FSOFT2024/TastyApp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1279,7 +1279,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug"
+			"value" : "C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1\u00ba ANO/2\u00ba semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug"
 		},
 		{
 			"name" : "TastyApp_IS_TOP_LEVEL",
@@ -1303,7 +1303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/lucca/CLionProjects/TastyApp"
+			"value" : "C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1\u00ba ANO/2\u00ba semestre/FSOFT/GitHub/FSOFT2024/TastyApp"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

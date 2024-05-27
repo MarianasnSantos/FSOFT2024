@@ -1,0 +1,8 @@
+//
+// Created by lucca on 27/05/2024.
+//
+
+#ifndef TASTYAPP_REGISTRATION_H
+#define TASTYAPP_REGISTRATION_H
+
+#endif //TASTYAPP_REGISTRATION_H

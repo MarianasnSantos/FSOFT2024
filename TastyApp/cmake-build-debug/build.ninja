@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target TastyApp
 
@@ -49,115 +49,115 @@ cmake_ninja_workdir = C$:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug/
 
 build cmake_object_order_depends_target_TastyApp: phony || CMakeFiles/TastyApp.dir
 
-build CMakeFiles/TastyApp.dir/main.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/main.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/main.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/main.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\main.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir
 
-build CMakeFiles/TastyApp.dir/sources/model/Group.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/model/Group.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/model/Group.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/model/Group.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\model\Group.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\model
 
-build CMakeFiles/TastyApp.dir/sources/model/Profile.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/model/Profile.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/model/Profile.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/model/Profile.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\model\Profile.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\model
 
-build CMakeFiles/TastyApp.dir/sources/model/Rating.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/model/Rating.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/model/Rating.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/model/Rating.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\model\Rating.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\model
 
-build CMakeFiles/TastyApp.dir/sources/model/Recipes.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/model/Recipes.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/model/Recipes.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/model/Recipes.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\model\Recipes.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\model
 
-build CMakeFiles/TastyApp.dir/sources/model/User.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/model/User.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/model/User.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/model/User.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\model\User.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\model
 
-build CMakeFiles/TastyApp.dir/sources/model/Utils.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/model/Utils.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/model/Utils.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/model/Utils.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\model\Utils.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\model
 
-build CMakeFiles/TastyApp.dir/sources/views/GroupView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/views/GroupView.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/views/GroupView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/views/GroupView.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\views\GroupView.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\views
 
-build CMakeFiles/TastyApp.dir/sources/views/ProfileView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/views/ProfileView.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/views/ProfileView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/views/ProfileView.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\views\ProfileView.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\views
 
-build CMakeFiles/TastyApp.dir/sources/views/RatingView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/views/RatingView.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/views/RatingView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/views/RatingView.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\views\RatingView.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\views
 
-build CMakeFiles/TastyApp.dir/sources/views/RecipesView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/views/RecipesView.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/views/RecipesView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/views/RecipesView.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\views\RecipesView.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\views
 
-build CMakeFiles/TastyApp.dir/sources/views/UserView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/views/UserView.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/views/UserView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/views/UserView.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\views\UserView.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\views
 
-build CMakeFiles/TastyApp.dir/sources/views/UtilsView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/views/UtilsView.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/views/UtilsView.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/views/UtilsView.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\views\UtilsView.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\views
 
-build CMakeFiles/TastyApp.dir/sources/controllers/GroupController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/controllers/GroupController.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/controllers/GroupController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/controllers/GroupController.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\controllers\GroupController.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\controllers
 
-build CMakeFiles/TastyApp.dir/sources/controllers/ProfileController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/controllers/ProfileController.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/controllers/ProfileController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/controllers/ProfileController.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\controllers\ProfileController.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\controllers
 
-build CMakeFiles/TastyApp.dir/sources/controllers/RatingController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/controllers/RatingController.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/controllers/RatingController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/controllers/RatingController.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\controllers\RatingController.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\controllers
 
-build CMakeFiles/TastyApp.dir/sources/controllers/RecipesController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/controllers/RecipesController.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/controllers/RecipesController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/controllers/RecipesController.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\controllers\RecipesController.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\controllers
 
-build CMakeFiles/TastyApp.dir/sources/controllers/UserController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/controllers/UserController.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/controllers/UserController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/controllers/UserController.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\controllers\UserController.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
   OBJECT_FILE_DIR = CMakeFiles\TastyApp.dir\sources\controllers
 
-build CMakeFiles/TastyApp.dir/sources/controllers/UtilsController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/CLionProjects/TastyApp/sources/controllers/UtilsController.cpp || cmake_object_order_depends_target_TastyApp
+build CMakeFiles/TastyApp.dir/sources/controllers/UtilsController.cpp.obj: CXX_COMPILER__TastyApp_unscanned_Debug C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/sources/controllers/UtilsController.cpp || cmake_object_order_depends_target_TastyApp
   DEP_FILE = CMakeFiles\TastyApp.dir\sources\controllers\UtilsController.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TastyApp.dir
@@ -186,7 +186,7 @@ build TastyApp.exe: CXX_EXECUTABLE_LINKER__TastyApp_Debug CMakeFiles/TastyApp.di
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\lucca\CLionProjects\TastyApp\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024\TastyApp\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -197,7 +197,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\lucca\CLionProjects\TastyApp\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SC:\Users\lucca\CLionProjects\TastyApp -BC:\Users\lucca\CLionProjects\TastyApp\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024\TastyApp\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024\TastyApp" -B"C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024\TastyApp\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -215,7 +215,7 @@ build TastyApp: phony TastyApp.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/lucca/CLionProjects/TastyApp/cmake-build-debug
+# Folder: C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug
 
 build all: phony TastyApp.exe
 
@@ -226,14 +226,14 @@ build all: phony TastyApp.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/lucca/CLionProjects/TastyApp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/lucca/CLionProjects/TastyApp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/lucca/OneDrive$ -$ Instituto$ Superior$ de$ Engenharia$ do$ Porto/Documents/ISEP/1º$ ANO/2º$ semestre/FSOFT/GitHub/FSOFT2024/TastyApp/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

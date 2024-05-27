@@ -149,7 +149,8 @@
 				15,
 				16,
 				17,
-				18
+				18,
+				37
 			]
 		}
 	],
@@ -208,7 +209,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "headers/model/Recipes.h",
+			"path" : "headers/model/Recipe.h",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -358,6 +359,11 @@
 			"compileGroupIndex" : 0,
 			"path" : "sources/controllers/UtilsController.cpp",
 			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "headers/model/Registration.h",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"

@@ -39,4 +39,5 @@ add_executable(TastyApp main.cpp
         sources/controllers/RatingController.cpp
         sources/controllers/RecipesController.cpp
         sources/controllers/UserController.cpp
-        sources/controllers/UtilsController.cpp)
+        sources/controllers/UtilsController.cpp
+        headers/model/Registration.h)
