@@ -1,0 +1,8 @@
+//
+// Created by eduba on 27/05/2024.
+//
+
+#ifndef FSOFT2024_RECIPEPAGE_H
+#define FSOFT2024_RECIPEPAGE_H
+
+#endif //FSOFT2024_RECIPEPAGE_H

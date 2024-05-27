@@ -13,7 +13,7 @@ add_executable(TastyApp main.cpp
         headers/model/Group.h
         headers/model/Profile.h
         headers/model/Rating.h
-        headers/model/Recipes.h
+        headers/model/Recipe.h
         headers/model/User.h
         headers/model/Utils.h
         headers/views/GroupView.h
