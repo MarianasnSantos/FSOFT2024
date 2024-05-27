@@ -1,0 +1,8 @@
+//
+// Created by lucca on 26/05/2024.
+//
+
+#ifndef TASTYAPP_USERCONTROLLER_H
+#define TASTYAPP_USERCONTROLLER_H
+
+#endif //TASTYAPP_USERCONTROLLER_H

@@ -1,0 +1,8 @@
+//
+// Created by lucca on 26/05/2024.
+//
+
+#ifndef TASTYAPP_RECIPESVIEW_H
+#define TASTYAPP_RECIPESVIEW_H
+
+#endif //TASTYAPP_RECIPESVIEW_H
