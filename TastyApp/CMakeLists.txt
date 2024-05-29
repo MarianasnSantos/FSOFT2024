@@ -39,4 +39,14 @@ add_executable(TastyApp main.cpp
         sources/controllers/RatingController.cpp
         sources/controllers/RecipesController.cpp
         sources/controllers/UserController.cpp
-        sources/controllers/UtilsController.cpp)
+        sources/controllers/UtilsController.cpp
+        sources/model/RatingContainer.cpp
+        sources/model/GroupContainer.cpp
+        sources/model/ProfileContainer.cpp
+        sources/model/RecipePage.cpp
+        sources/model/RecipeContainer.cpp
+        sources/model/UserContainer.cpp
+        headers/model/UserContainer.h
+        headers/model/RecipeContainer.h
+        headers/model/ProfileContainer.h
+        headers/model/GroupContainer.h)

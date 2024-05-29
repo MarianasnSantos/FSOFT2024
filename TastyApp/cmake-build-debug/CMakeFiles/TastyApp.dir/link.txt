@@ -1,0 +1,3 @@
+"C:\1 ANO\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\TastyApp.dir/objects.a
+C:\1ANO~1\CLION2~1.4\bin\mingw\bin\ar.exe qc CMakeFiles\TastyApp.dir/objects.a @CMakeFiles\TastyApp.dir\objects1.rsp
+C:\1ANO~1\CLION2~1.4\bin\mingw\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\TastyApp.dir/objects.a -Wl,--no-whole-archive -o TastyApp.exe -Wl,--out-implib,libTastyApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TastyApp.dir\linkLibs.rsp
