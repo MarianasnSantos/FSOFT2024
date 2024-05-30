@@ -1,7 +1,3 @@
-//
-// Created by eduba on 27/05/2024.
-//
-
 #ifndef FSOFT2024_PROFILECONTAINER_H
 #define FSOFT2024_PROFILECONTAINER_H
 

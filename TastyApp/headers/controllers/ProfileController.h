@@ -1,7 +1,3 @@
-//
-// Created by lucca on 26/05/2024.
-//
-
 #ifndef TASTYAPP_PROFILECONTROLLER_H
 #define TASTYAPP_PROFILECONTROLLER_H
 
