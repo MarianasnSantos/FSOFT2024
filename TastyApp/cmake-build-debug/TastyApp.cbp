@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TastyApp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TastyApp">
+				<Option output="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/TastyApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 TastyApp"/>
+					<CompileFile command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TastyApp/fast">
+				<Option output="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/TastyApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 TastyApp/fast"/>
+					<CompileFile command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/1ANO~1/CLION2~1.4/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/controllers/GroupController.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/controllers/ProfileController.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/controllers/RatingController.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/controllers/RecipesController.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/controllers/UserController.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/controllers/UtilsController.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/Group.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/GroupContainer.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/Profile.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/ProfileContainer.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/Rating.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/Recipe.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/RecipeContainer.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/User.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/UserContainer.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/model/Utils.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/views/GroupView.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/views/ProfileView.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/views/RatingView.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/views/RecipesView.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/views/UserView.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/headers/views/UtilsView.h">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/main.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/controllers/GroupController.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/controllers/ProfileController.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/controllers/RatingController.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/controllers/RecipesController.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/controllers/UserController.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/controllers/UtilsController.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/Group.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/GroupContainer.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/Profile.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/ProfileContainer.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/Rating.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/RatingContainer.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/RecipeContainer.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/RecipePage.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/Recipes.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/User.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/UserContainer.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/model/Utils.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/views/GroupView.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/views/ProfileView.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/views/RatingView.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/views/RecipesView.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/views/UserView.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/sources/views/UtilsView.cpp">
+			<Option target="TastyApp"/>
+		</Unit>
+		<Unit filename="C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
