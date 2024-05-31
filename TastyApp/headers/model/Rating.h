@@ -1,4 +1,0 @@
-#ifndef TASTYAPP_RATING_H
-#define TASTYAPP_RATING_H
-
-#endif //TASTYAPP_RATING_H

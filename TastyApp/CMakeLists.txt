@@ -4,17 +4,15 @@ project(TastyApp)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(TastyApp main.cpp
-        headers/controllers/UserController.h
-        headers/controllers/ProfileController.h
         headers/controllers/RecipesController.h
-        headers/controllers/GroupController.h
-        headers/controllers/RatingController.h
-        headers/controllers/UtilsController.h
-        headers/model/Group.h
-        headers/model/Profile.h
-        headers/model/Rating.h
-        headers/model/Recipe.h
-        headers/model/User.h
+        headers/controllers/controller.h
+        headers/model/GroupContainer.h
+        headers/model/ProfileContainer.h
+        headers/model/RatingContainer.h
+        headers/model/RecipeContainer.h
+        headers/model/RecipePage.h
+        headers/model/Registration.h
+        headers/model/UserContainer.h
         headers/model/Utils.h
         headers/views/GroupView.h
         headers/views/ProfileView.h
@@ -22,35 +20,26 @@ add_executable(TastyApp main.cpp
         headers/views/RecipesView.h
         headers/views/UserView.h
         headers/views/UtilsView.h
-        sources/model/Group.cpp
-        sources/model/Profile.cpp
-        sources/model/Rating.cpp
-        sources/model/Recipes.cpp
-        sources/model/User.cpp
-        sources/model/Utils.cpp
-        sources/views/GroupView.cpp
-        sources/views/ProfileView.cpp
-        sources/views/RatingView.cpp
-        sources/views/RecipesView.cpp
-        sources/views/UserView.cpp
-        sources/views/UtilsView.cpp
-        sources/controllers/GroupController.cpp
-        sources/controllers/ProfileController.cpp
-        sources/controllers/RatingController.cpp
-        sources/controllers/RecipesController.cpp
-        sources/controllers/UserController.cpp
-        sources/controllers/UtilsController.cpp
-<<<<<<< HEAD
-        headers/model/Registration.h)
-=======
-        sources/model/RatingContainer.cpp
+        sources/controllers/controller.cpp
         sources/model/GroupContainer.cpp
         sources/model/ProfileContainer.cpp
-        sources/model/RecipePage.cpp
+        sources/model/RatingContainer.cpp
         sources/model/RecipeContainer.cpp
+        sources/model/RecipePage.cpp
         sources/model/UserContainer.cpp
-        headers/model/UserContainer.h
-        headers/model/RecipeContainer.h
-        headers/model/ProfileContainer.h
-        headers/model/GroupContainer.h)
->>>>>>> 3a1a7252354ac34854bb5dd40af364eb21202100
+        sources/model/Utils.cpp
+
+        User.cpp
+        User.h
+        Group.cpp
+        Group.h
+        Recipes.cpp
+        Recipes.h
+        Profile.cpp
+        Profile.h
+        Rating.cpp
+        Rating.h
+        User.cpp
+        User.cpp
+)
+

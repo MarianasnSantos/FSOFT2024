@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Install script for directory: C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp
-=======
-# Install script for directory: C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp
->>>>>>> 3a1a7252354ac34854bb5dd40af364eb21202100
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/1 ANO/CLion 2023.3.4/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2023.3.4/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,9 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< HEAD
 file(WRITE "C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-=======
-file(WRITE "C:/Users/anama/Documents/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> 3a1a7252354ac34854bb5dd40af364eb21202100
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
