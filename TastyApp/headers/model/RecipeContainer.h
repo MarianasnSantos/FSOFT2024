@@ -1,8 +1,14 @@
 //
-// Created by eduba on 27/05/2024.
+// Created by lucca on 02/06/2024.
 //
 
-#ifndef FSOFT2024_RECIPECONTAINER_H
-#define FSOFT2024_RECIPECONTAINER_H
+#ifndef LASTTEST_LOG_RECIPECONTAINER_H
+#define LASTTEST_LOG_RECIPECONTAINER_H
 
-#endif //FSOFT2024_RECIPECONTAINER_H
+
+class RecipeContainer {
+
+};
+
+
+#endif //LASTTEST_LOG_RECIPECONTAINER_H

@@ -1,9 +1,10 @@
-#ifndef LASTTEST_LOG_RECIPES_H
-#define LASTTEST_LOG_RECIPES_H
+#ifndef LASTTEST_LOG_RECIPE_H
+#define LASTTEST_LOG_RECIPE_H
 
 #include <string>
 #include <vector>
 #include "Rating.h"
+#include "Profile.h"
 
 using namespace std;
 
@@ -21,4 +22,4 @@ private:
     vector<Rating> ratings;
 };
 
-#endif //LASTTEST_LOG_RECIPES_H
+#endif //LASTTEST_LOG_RECIPE_H

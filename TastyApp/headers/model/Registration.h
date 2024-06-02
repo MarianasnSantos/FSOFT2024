@@ -1,8 +1,14 @@
 //
-// Created by lucca on 27/05/2024.
+// Created by lucca on 02/06/2024.
 //
 
-#ifndef TASTYAPP_REGISTRATION_H
-#define TASTYAPP_REGISTRATION_H
+#ifndef LASTTEST_LOG_REGISTRATION_H
+#define LASTTEST_LOG_REGISTRATION_H
 
-#endif //TASTYAPP_REGISTRATION_H
+
+class Registration {
+
+};
+
+
+#endif //LASTTEST_LOG_REGISTRATION_H
