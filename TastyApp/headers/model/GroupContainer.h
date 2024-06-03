@@ -1,16 +1,18 @@
-//
-// Created by lucca on 02/06/2024.
-//
-
-#include <vector>
 #ifndef LASTTEST_LOG_GROUPCONTAINER_H
 #define LASTTEST_LOG_GROUPCONTAINER_H
 
+#include "Group.h"
+#include <vector>
+
+using namespace std;
 
 class GroupContainer {
-private:
-    vector<Group> groups;
+public:
+    void addGroup(const Group& group);
+    vector <Group> getGroups() const;
 
+private:
+    vector <Group> groups;
 };
 
 
