@@ -9,7 +9,7 @@ using namespace std;
 class UserContainer {
 public:
     void addUser(const User& user);
-    vector <User> getUsers() const;
+    vector<User> getUsers() const;
 
 private:
     vector <User> users;

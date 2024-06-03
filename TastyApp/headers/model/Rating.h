@@ -5,6 +5,7 @@ class Rating {
 public:
     Rating(int score);
     int getScore() const;
+    void setScore(int score);
 
 private:
     int score;

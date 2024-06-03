@@ -13,6 +13,8 @@ public:
     Recipe(const string& title, const string& description);
     string getTitle() const;
     string getDescription() const;
+    void setTitle(const string& title);
+    void setDescription(const string& description);
     void addRating(const Rating& rating);
     vector<Rating> getRatings() const;
 

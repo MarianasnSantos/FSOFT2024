@@ -1,12 +1,11 @@
-#include <iostream>
-#include "GroupContainer.h"
+#include "../../headers/model/GroupContainer.h"
 
 using namespace std;
 
-void GroupContainer::addGroup(const Group& group) {
+void GroupContainer::addGroup(const Group& group){
     groups.push_back(group);
 }
 
-vector<Group> GroupContainer::getGroups() const {
+vector<Group>GroupContainer::getGroups() const{
     return groups;
 }

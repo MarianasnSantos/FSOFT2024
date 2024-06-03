@@ -9,7 +9,7 @@ using namespace std;
 class RecipeContainer {
 public:
     void addRecipe(const Recipe& recipe);
-    vector <Recipe> getRecipes() const;
+    vector<Recipe> getRecipes() const;
 
 private:
     vector <Recipe> recipes;

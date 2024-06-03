@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../../headers/model/RecipeContainer.h"
 
 using namespace std;

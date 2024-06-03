@@ -10,6 +10,8 @@ using namespace std;
 class Group {
 public:
     Group(const string& name);
+    string getName() const;
+    void setName(const string& name);
     void addUser(const User& user);
     vector<User> getUsers() const;
 
