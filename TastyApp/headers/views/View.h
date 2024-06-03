@@ -8,10 +8,11 @@ using namespace std;
 class View{
 public:
     View();
-    int
+    int menuGroup();
+    int menuUser();
+    int menuRecipe();
+    int menuRating();
+    int menuProfile();
 };
-
-
-
 
 #endif //FSOFT2024_1DA_5_VIEW_H
