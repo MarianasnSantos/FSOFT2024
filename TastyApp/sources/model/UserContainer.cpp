@@ -1,5 +1,12 @@
-//
-// Created by lucca on 02/06/2024.
-//
-
+#include <iostream>
 #include "../../headers/model/UserContainer.h"
+
+using namespace std;
+
+void UserContainer::addUser(const User& user) {
+    users.push_back(user);
+}
+
+vector <User> UserContainer::getUsers() const {
+    return users;
+}
