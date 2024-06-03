@@ -3,13 +3,21 @@
 #define LASTTEST_LOG_CONTROLLER_H
 
 #include <vector>
-#include "User.h"
-#include "Recipe.h"
-#include "UserContainer.h"
-#include "RecipeContainer.h"
+#include "View.h"
+#include "GroupView.h"
+#include "ProfileView.h"
+#include "RatingView.h"
+#include "RecipesView.h"
+#include "UserView.h"
+#include "UtilsView.h"
+#include "App.h"
 
-class Controller {
+
+class Controller{
+
+
 public:
+    App model;
     void addUser(const User& user);
     void addRecipe(const Recipe& recipe);
     std::vector<User> getUsers() const;
