@@ -1,3 +1,3 @@
-C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/CMakeFiles/TastyApp.dir
-C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024/TastyApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/CMakeFiles/TastyApp.dir
+C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lucca/OneDrive - Instituto Superior de Engenharia do Porto/Documents/ISEP/1º ANO/2º semestre/FSOFT/GitHub/FSOFT2024_1DA_5/TastyApp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
