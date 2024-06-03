@@ -4,7 +4,6 @@ project(TastyApp)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(TastyApp
-        headers/controllers/RecipesController.h
         headers/views/GroupView.h
         headers/views/ProfileView.h
         headers/views/RatingView.h
@@ -13,31 +12,30 @@ add_executable(TastyApp
         sources/controllers/controller.cpp
         headers/controllers/Controller.cpp
         headers/controllers/Controller.h
-        headers/model/Group.cpp
+        sources/model/Group.cpp
         headers/model/Group.h
-        headers/model/GroupContainer.cpp
+        sources/model/GroupContainer.cpp
         headers/model/GroupContainer.h
-        headers/model/Registration.cpp
+        sources/model/Registration.cpp
         headers/model/Registration.h
-        headers/model/User.cpp
+        sources/model/User.cpp
         headers/model/User.h
-        headers/model/UserContainer.cpp
+        sources/model/UserContainer.cpp
         headers/model/UserContainer.h
-        headers/model/Profile.cpp
+        sources/model/Profile.cpp
         headers/model/Profile.h
-        headers/model/ProfileContainer.cpp
+        sources/model/ProfileContainer.cpp
         headers/model/ProfileContainer.h
-        headers/model/Recipe.cpp
+        sources/model/Recipe.cpp
         headers/model/Recipe.h
-        headers/model/RecipeContainer.cpp
+        sources/model/RecipeContainer.cpp
         headers/model/RecipeContainer.h
-        headers/model/Rating.cpp
+        sources/model/Rating.cpp
         headers/model/Rating.h
-        headers/model/RatingContainer.cpp
+        sources/model/RatingContainer.cpp
         headers/model/RatingContainer.h
-        headers/model/RecipePage.cpp
+        sources/model/RecipePage.cpp
         headers/model/RecipePage.h
-        headers/views/UserView.cpp
         headers/views/UserView.h
         headers/exceptions/invalidDataException.cpp
         headers/exceptions/invalidDataException.h
