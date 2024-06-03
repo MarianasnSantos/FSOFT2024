@@ -12,6 +12,7 @@
 #include "UtilsView.h"
 #include "App.h"
 
+using namespace std;
 
 class Controller{
 
@@ -20,8 +21,8 @@ public:
     App model;
     void addUser(const User& user);
     void addRecipe(const Recipe& recipe);
-    std::vector<User> getUsers() const;
-    std::vector<Recipe> getRecipes() const;
+    vector<User> getUsers() const;
+    vector<Recipe> getRecipes() const;
 
 private:
     UserContainer userContainer;
