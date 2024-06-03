@@ -1,8 +1,8 @@
 #include <string>
 #include <vector>
-#include "User.h"
-#include "Recipe.h"
-#include "Profile.h"
+#include "../../headers/model/User.h"
+#include "../../headers/model/Recipe.h"
+#include "../../headers/model/Profile.h"
 
 using namespace std;
 
