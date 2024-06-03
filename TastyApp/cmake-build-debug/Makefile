@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\1 ANO\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\1 ANO\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\anama\Documents\GitHub\FSOFT2024_1DA_5\TastyApp
+CMAKE_SOURCE_DIR = "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024_1DA_5\TastyApp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\anama\Documents\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\anama\Documents\GitHub\FSOFT2024_1DA_5\TastyApp\cmak
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"C:\1 ANO\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"C:\1 ANO\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anama\Documents\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug\CMakeFiles C:\Users\anama\Documents\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug\CMakeFiles" "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\anama\Documents\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\lucca\OneDrive - Instituto Superior de Engenharia do Porto\Documents\ISEP\1º ANO\2º semestre\FSOFT\GitHub\FSOFT2024_1DA_5\TastyApp\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,605 +128,389 @@ TastyApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/build
 .PHONY : TastyApp/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+headers/controllers/Controller.obj: headers/controllers/Controller.cpp.obj
+.PHONY : headers/controllers/Controller.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+headers/controllers/Controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/controllers/Controller.cpp.obj
+.PHONY : headers/controllers/Controller.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+headers/controllers/Controller.i: headers/controllers/Controller.cpp.i
+.PHONY : headers/controllers/Controller.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/main.cpp.i
-.PHONY : main.cpp.i
+headers/controllers/Controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/controllers/Controller.cpp.i
+.PHONY : headers/controllers/Controller.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+headers/controllers/Controller.s: headers/controllers/Controller.cpp.s
+.PHONY : headers/controllers/Controller.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/main.cpp.s
-.PHONY : main.cpp.s
+headers/controllers/Controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/controllers/Controller.cpp.s
+.PHONY : headers/controllers/Controller.cpp.s
 
-sources/controllers/GroupController.obj: sources/controllers/GroupController.cpp.obj
-.PHONY : sources/controllers/GroupController.obj
+headers/exceptions/invalidDataException.obj: headers/exceptions/invalidDataException.cpp.obj
+.PHONY : headers/exceptions/invalidDataException.obj
 
 # target to build an object file
-sources/controllers/GroupController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/GroupController.cpp.obj
-.PHONY : sources/controllers/GroupController.cpp.obj
+headers/exceptions/invalidDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/exceptions/invalidDataException.cpp.obj
+.PHONY : headers/exceptions/invalidDataException.cpp.obj
 
-sources/controllers/GroupController.i: sources/controllers/GroupController.cpp.i
-.PHONY : sources/controllers/GroupController.i
+headers/exceptions/invalidDataException.i: headers/exceptions/invalidDataException.cpp.i
+.PHONY : headers/exceptions/invalidDataException.i
 
 # target to preprocess a source file
-sources/controllers/GroupController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/GroupController.cpp.i
-.PHONY : sources/controllers/GroupController.cpp.i
+headers/exceptions/invalidDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/exceptions/invalidDataException.cpp.i
+.PHONY : headers/exceptions/invalidDataException.cpp.i
 
-sources/controllers/GroupController.s: sources/controllers/GroupController.cpp.s
-.PHONY : sources/controllers/GroupController.s
+headers/exceptions/invalidDataException.s: headers/exceptions/invalidDataException.cpp.s
+.PHONY : headers/exceptions/invalidDataException.s
 
 # target to generate assembly for a file
-sources/controllers/GroupController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/GroupController.cpp.s
-.PHONY : sources/controllers/GroupController.cpp.s
+headers/exceptions/invalidDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/exceptions/invalidDataException.cpp.s
+.PHONY : headers/exceptions/invalidDataException.cpp.s
 
-sources/controllers/ProfileController.obj: sources/controllers/ProfileController.cpp.obj
-.PHONY : sources/controllers/ProfileController.obj
+headers/model/Group.obj: headers/model/Group.cpp.obj
+.PHONY : headers/model/Group.obj
 
 # target to build an object file
-sources/controllers/ProfileController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/ProfileController.cpp.obj
-.PHONY : sources/controllers/ProfileController.cpp.obj
+headers/model/Group.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Group.cpp.obj
+.PHONY : headers/model/Group.cpp.obj
 
-sources/controllers/ProfileController.i: sources/controllers/ProfileController.cpp.i
-.PHONY : sources/controllers/ProfileController.i
+headers/model/Group.i: headers/model/Group.cpp.i
+.PHONY : headers/model/Group.i
 
 # target to preprocess a source file
-sources/controllers/ProfileController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/ProfileController.cpp.i
-.PHONY : sources/controllers/ProfileController.cpp.i
+headers/model/Group.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Group.cpp.i
+.PHONY : headers/model/Group.cpp.i
 
-sources/controllers/ProfileController.s: sources/controllers/ProfileController.cpp.s
-.PHONY : sources/controllers/ProfileController.s
+headers/model/Group.s: headers/model/Group.cpp.s
+.PHONY : headers/model/Group.s
 
 # target to generate assembly for a file
-sources/controllers/ProfileController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/ProfileController.cpp.s
-.PHONY : sources/controllers/ProfileController.cpp.s
+headers/model/Group.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Group.cpp.s
+.PHONY : headers/model/Group.cpp.s
 
-sources/controllers/RatingController.obj: sources/controllers/RatingController.cpp.obj
-.PHONY : sources/controllers/RatingController.obj
+headers/model/GroupContainer.obj: headers/model/GroupContainer.cpp.obj
+.PHONY : headers/model/GroupContainer.obj
 
 # target to build an object file
-sources/controllers/RatingController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/RatingController.cpp.obj
-.PHONY : sources/controllers/RatingController.cpp.obj
+headers/model/GroupContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/GroupContainer.cpp.obj
+.PHONY : headers/model/GroupContainer.cpp.obj
 
-sources/controllers/RatingController.i: sources/controllers/RatingController.cpp.i
-.PHONY : sources/controllers/RatingController.i
+headers/model/GroupContainer.i: headers/model/GroupContainer.cpp.i
+.PHONY : headers/model/GroupContainer.i
 
 # target to preprocess a source file
-sources/controllers/RatingController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/RatingController.cpp.i
-.PHONY : sources/controllers/RatingController.cpp.i
+headers/model/GroupContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/GroupContainer.cpp.i
+.PHONY : headers/model/GroupContainer.cpp.i
 
-sources/controllers/RatingController.s: sources/controllers/RatingController.cpp.s
-.PHONY : sources/controllers/RatingController.s
+headers/model/GroupContainer.s: headers/model/GroupContainer.cpp.s
+.PHONY : headers/model/GroupContainer.s
 
 # target to generate assembly for a file
-sources/controllers/RatingController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/RatingController.cpp.s
-.PHONY : sources/controllers/RatingController.cpp.s
+headers/model/GroupContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/GroupContainer.cpp.s
+.PHONY : headers/model/GroupContainer.cpp.s
 
-sources/controllers/RecipesController.obj: sources/controllers/RecipesController.cpp.obj
-.PHONY : sources/controllers/RecipesController.obj
+headers/model/Profile.obj: headers/model/Profile.cpp.obj
+.PHONY : headers/model/Profile.obj
 
 # target to build an object file
-sources/controllers/RecipesController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/RecipesController.cpp.obj
-.PHONY : sources/controllers/RecipesController.cpp.obj
+headers/model/Profile.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Profile.cpp.obj
+.PHONY : headers/model/Profile.cpp.obj
 
-sources/controllers/RecipesController.i: sources/controllers/RecipesController.cpp.i
-.PHONY : sources/controllers/RecipesController.i
+headers/model/Profile.i: headers/model/Profile.cpp.i
+.PHONY : headers/model/Profile.i
 
 # target to preprocess a source file
-sources/controllers/RecipesController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/RecipesController.cpp.i
-.PHONY : sources/controllers/RecipesController.cpp.i
+headers/model/Profile.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Profile.cpp.i
+.PHONY : headers/model/Profile.cpp.i
 
-sources/controllers/RecipesController.s: sources/controllers/RecipesController.cpp.s
-.PHONY : sources/controllers/RecipesController.s
+headers/model/Profile.s: headers/model/Profile.cpp.s
+.PHONY : headers/model/Profile.s
 
 # target to generate assembly for a file
-sources/controllers/RecipesController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/RecipesController.cpp.s
-.PHONY : sources/controllers/RecipesController.cpp.s
+headers/model/Profile.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Profile.cpp.s
+.PHONY : headers/model/Profile.cpp.s
 
-sources/controllers/UserController.obj: sources/controllers/UserController.cpp.obj
-.PHONY : sources/controllers/UserController.obj
+headers/model/ProfileContainer.obj: headers/model/ProfileContainer.cpp.obj
+.PHONY : headers/model/ProfileContainer.obj
 
 # target to build an object file
-sources/controllers/UserController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/UserController.cpp.obj
-.PHONY : sources/controllers/UserController.cpp.obj
+headers/model/ProfileContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/ProfileContainer.cpp.obj
+.PHONY : headers/model/ProfileContainer.cpp.obj
 
-sources/controllers/UserController.i: sources/controllers/UserController.cpp.i
-.PHONY : sources/controllers/UserController.i
+headers/model/ProfileContainer.i: headers/model/ProfileContainer.cpp.i
+.PHONY : headers/model/ProfileContainer.i
 
 # target to preprocess a source file
-sources/controllers/UserController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/UserController.cpp.i
-.PHONY : sources/controllers/UserController.cpp.i
+headers/model/ProfileContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/ProfileContainer.cpp.i
+.PHONY : headers/model/ProfileContainer.cpp.i
 
-sources/controllers/UserController.s: sources/controllers/UserController.cpp.s
-.PHONY : sources/controllers/UserController.s
+headers/model/ProfileContainer.s: headers/model/ProfileContainer.cpp.s
+.PHONY : headers/model/ProfileContainer.s
 
 # target to generate assembly for a file
-sources/controllers/UserController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/UserController.cpp.s
-.PHONY : sources/controllers/UserController.cpp.s
+headers/model/ProfileContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/ProfileContainer.cpp.s
+.PHONY : headers/model/ProfileContainer.cpp.s
 
-sources/controllers/UtilsController.obj: sources/controllers/UtilsController.cpp.obj
-.PHONY : sources/controllers/UtilsController.obj
+headers/model/Rating.obj: headers/model/Rating.cpp.obj
+.PHONY : headers/model/Rating.obj
 
 # target to build an object file
-sources/controllers/UtilsController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/UtilsController.cpp.obj
-.PHONY : sources/controllers/UtilsController.cpp.obj
+headers/model/Rating.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Rating.cpp.obj
+.PHONY : headers/model/Rating.cpp.obj
 
-sources/controllers/UtilsController.i: sources/controllers/UtilsController.cpp.i
-.PHONY : sources/controllers/UtilsController.i
+headers/model/Rating.i: headers/model/Rating.cpp.i
+.PHONY : headers/model/Rating.i
 
 # target to preprocess a source file
-sources/controllers/UtilsController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/UtilsController.cpp.i
-.PHONY : sources/controllers/UtilsController.cpp.i
+headers/model/Rating.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Rating.cpp.i
+.PHONY : headers/model/Rating.cpp.i
 
-sources/controllers/UtilsController.s: sources/controllers/UtilsController.cpp.s
-.PHONY : sources/controllers/UtilsController.s
+headers/model/Rating.s: headers/model/Rating.cpp.s
+.PHONY : headers/model/Rating.s
 
 # target to generate assembly for a file
-sources/controllers/UtilsController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/UtilsController.cpp.s
-.PHONY : sources/controllers/UtilsController.cpp.s
+headers/model/Rating.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Rating.cpp.s
+.PHONY : headers/model/Rating.cpp.s
 
-sources/model/Group.obj: sources/model/Group.cpp.obj
-.PHONY : sources/model/Group.obj
+headers/model/RatingContainer.obj: headers/model/RatingContainer.cpp.obj
+.PHONY : headers/model/RatingContainer.obj
 
 # target to build an object file
-sources/model/Group.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Group.cpp.obj
-.PHONY : sources/model/Group.cpp.obj
+headers/model/RatingContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RatingContainer.cpp.obj
+.PHONY : headers/model/RatingContainer.cpp.obj
 
-sources/model/Group.i: sources/model/Group.cpp.i
-.PHONY : sources/model/Group.i
+headers/model/RatingContainer.i: headers/model/RatingContainer.cpp.i
+.PHONY : headers/model/RatingContainer.i
 
 # target to preprocess a source file
-sources/model/Group.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Group.cpp.i
-.PHONY : sources/model/Group.cpp.i
+headers/model/RatingContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RatingContainer.cpp.i
+.PHONY : headers/model/RatingContainer.cpp.i
 
-sources/model/Group.s: sources/model/Group.cpp.s
-.PHONY : sources/model/Group.s
+headers/model/RatingContainer.s: headers/model/RatingContainer.cpp.s
+.PHONY : headers/model/RatingContainer.s
 
 # target to generate assembly for a file
-sources/model/Group.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Group.cpp.s
-.PHONY : sources/model/Group.cpp.s
+headers/model/RatingContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RatingContainer.cpp.s
+.PHONY : headers/model/RatingContainer.cpp.s
 
-sources/model/GroupContainer.obj: sources/model/GroupContainer.cpp.obj
-.PHONY : sources/model/GroupContainer.obj
+headers/model/Recipe.obj: headers/model/Recipe.cpp.obj
+.PHONY : headers/model/Recipe.obj
 
 # target to build an object file
-sources/model/GroupContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/GroupContainer.cpp.obj
-.PHONY : sources/model/GroupContainer.cpp.obj
+headers/model/Recipe.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Recipe.cpp.obj
+.PHONY : headers/model/Recipe.cpp.obj
 
-sources/model/GroupContainer.i: sources/model/GroupContainer.cpp.i
-.PHONY : sources/model/GroupContainer.i
+headers/model/Recipe.i: headers/model/Recipe.cpp.i
+.PHONY : headers/model/Recipe.i
 
 # target to preprocess a source file
-sources/model/GroupContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/GroupContainer.cpp.i
-.PHONY : sources/model/GroupContainer.cpp.i
+headers/model/Recipe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Recipe.cpp.i
+.PHONY : headers/model/Recipe.cpp.i
 
-sources/model/GroupContainer.s: sources/model/GroupContainer.cpp.s
-.PHONY : sources/model/GroupContainer.s
+headers/model/Recipe.s: headers/model/Recipe.cpp.s
+.PHONY : headers/model/Recipe.s
 
 # target to generate assembly for a file
-sources/model/GroupContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/GroupContainer.cpp.s
-.PHONY : sources/model/GroupContainer.cpp.s
+headers/model/Recipe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Recipe.cpp.s
+.PHONY : headers/model/Recipe.cpp.s
 
-sources/model/Profile.obj: sources/model/Profile.cpp.obj
-.PHONY : sources/model/Profile.obj
+headers/model/RecipeContainer.obj: headers/model/RecipeContainer.cpp.obj
+.PHONY : headers/model/RecipeContainer.obj
 
 # target to build an object file
-sources/model/Profile.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Profile.cpp.obj
-.PHONY : sources/model/Profile.cpp.obj
+headers/model/RecipeContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RecipeContainer.cpp.obj
+.PHONY : headers/model/RecipeContainer.cpp.obj
 
-sources/model/Profile.i: sources/model/Profile.cpp.i
-.PHONY : sources/model/Profile.i
+headers/model/RecipeContainer.i: headers/model/RecipeContainer.cpp.i
+.PHONY : headers/model/RecipeContainer.i
 
 # target to preprocess a source file
-sources/model/Profile.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Profile.cpp.i
-.PHONY : sources/model/Profile.cpp.i
+headers/model/RecipeContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RecipeContainer.cpp.i
+.PHONY : headers/model/RecipeContainer.cpp.i
 
-sources/model/Profile.s: sources/model/Profile.cpp.s
-.PHONY : sources/model/Profile.s
+headers/model/RecipeContainer.s: headers/model/RecipeContainer.cpp.s
+.PHONY : headers/model/RecipeContainer.s
 
 # target to generate assembly for a file
-sources/model/Profile.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Profile.cpp.s
-.PHONY : sources/model/Profile.cpp.s
+headers/model/RecipeContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RecipeContainer.cpp.s
+.PHONY : headers/model/RecipeContainer.cpp.s
 
-sources/model/ProfileContainer.obj: sources/model/ProfileContainer.cpp.obj
-.PHONY : sources/model/ProfileContainer.obj
+headers/model/RecipePage.obj: headers/model/RecipePage.cpp.obj
+.PHONY : headers/model/RecipePage.obj
 
 # target to build an object file
-sources/model/ProfileContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/ProfileContainer.cpp.obj
-.PHONY : sources/model/ProfileContainer.cpp.obj
+headers/model/RecipePage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RecipePage.cpp.obj
+.PHONY : headers/model/RecipePage.cpp.obj
 
-sources/model/ProfileContainer.i: sources/model/ProfileContainer.cpp.i
-.PHONY : sources/model/ProfileContainer.i
+headers/model/RecipePage.i: headers/model/RecipePage.cpp.i
+.PHONY : headers/model/RecipePage.i
 
 # target to preprocess a source file
-sources/model/ProfileContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/ProfileContainer.cpp.i
-.PHONY : sources/model/ProfileContainer.cpp.i
+headers/model/RecipePage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RecipePage.cpp.i
+.PHONY : headers/model/RecipePage.cpp.i
 
-sources/model/ProfileContainer.s: sources/model/ProfileContainer.cpp.s
-.PHONY : sources/model/ProfileContainer.s
+headers/model/RecipePage.s: headers/model/RecipePage.cpp.s
+.PHONY : headers/model/RecipePage.s
 
 # target to generate assembly for a file
-sources/model/ProfileContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/ProfileContainer.cpp.s
-.PHONY : sources/model/ProfileContainer.cpp.s
+headers/model/RecipePage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/RecipePage.cpp.s
+.PHONY : headers/model/RecipePage.cpp.s
 
-sources/model/Rating.obj: sources/model/Rating.cpp.obj
-.PHONY : sources/model/Rating.obj
+headers/model/Registration.obj: headers/model/Registration.cpp.obj
+.PHONY : headers/model/Registration.obj
 
 # target to build an object file
-sources/model/Rating.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Rating.cpp.obj
-.PHONY : sources/model/Rating.cpp.obj
+headers/model/Registration.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Registration.cpp.obj
+.PHONY : headers/model/Registration.cpp.obj
 
-sources/model/Rating.i: sources/model/Rating.cpp.i
-.PHONY : sources/model/Rating.i
+headers/model/Registration.i: headers/model/Registration.cpp.i
+.PHONY : headers/model/Registration.i
 
 # target to preprocess a source file
-sources/model/Rating.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Rating.cpp.i
-.PHONY : sources/model/Rating.cpp.i
+headers/model/Registration.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Registration.cpp.i
+.PHONY : headers/model/Registration.cpp.i
 
-sources/model/Rating.s: sources/model/Rating.cpp.s
-.PHONY : sources/model/Rating.s
+headers/model/Registration.s: headers/model/Registration.cpp.s
+.PHONY : headers/model/Registration.s
 
 # target to generate assembly for a file
-sources/model/Rating.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Rating.cpp.s
-.PHONY : sources/model/Rating.cpp.s
+headers/model/Registration.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/Registration.cpp.s
+.PHONY : headers/model/Registration.cpp.s
 
-sources/model/RatingContainer.obj: sources/model/RatingContainer.cpp.obj
-.PHONY : sources/model/RatingContainer.obj
+headers/model/User.obj: headers/model/User.cpp.obj
+.PHONY : headers/model/User.obj
 
 # target to build an object file
-sources/model/RatingContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RatingContainer.cpp.obj
-.PHONY : sources/model/RatingContainer.cpp.obj
+headers/model/User.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/User.cpp.obj
+.PHONY : headers/model/User.cpp.obj
 
-sources/model/RatingContainer.i: sources/model/RatingContainer.cpp.i
-.PHONY : sources/model/RatingContainer.i
+headers/model/User.i: headers/model/User.cpp.i
+.PHONY : headers/model/User.i
 
 # target to preprocess a source file
-sources/model/RatingContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RatingContainer.cpp.i
-.PHONY : sources/model/RatingContainer.cpp.i
+headers/model/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/User.cpp.i
+.PHONY : headers/model/User.cpp.i
 
-sources/model/RatingContainer.s: sources/model/RatingContainer.cpp.s
-.PHONY : sources/model/RatingContainer.s
+headers/model/User.s: headers/model/User.cpp.s
+.PHONY : headers/model/User.s
 
 # target to generate assembly for a file
-sources/model/RatingContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RatingContainer.cpp.s
-.PHONY : sources/model/RatingContainer.cpp.s
+headers/model/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/User.cpp.s
+.PHONY : headers/model/User.cpp.s
 
-sources/model/RecipeContainer.obj: sources/model/RecipeContainer.cpp.obj
-.PHONY : sources/model/RecipeContainer.obj
+headers/model/UserContainer.obj: headers/model/UserContainer.cpp.obj
+.PHONY : headers/model/UserContainer.obj
 
 # target to build an object file
-sources/model/RecipeContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RecipeContainer.cpp.obj
-.PHONY : sources/model/RecipeContainer.cpp.obj
+headers/model/UserContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/UserContainer.cpp.obj
+.PHONY : headers/model/UserContainer.cpp.obj
 
-sources/model/RecipeContainer.i: sources/model/RecipeContainer.cpp.i
-.PHONY : sources/model/RecipeContainer.i
+headers/model/UserContainer.i: headers/model/UserContainer.cpp.i
+.PHONY : headers/model/UserContainer.i
 
 # target to preprocess a source file
-sources/model/RecipeContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RecipeContainer.cpp.i
-.PHONY : sources/model/RecipeContainer.cpp.i
+headers/model/UserContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/UserContainer.cpp.i
+.PHONY : headers/model/UserContainer.cpp.i
 
-sources/model/RecipeContainer.s: sources/model/RecipeContainer.cpp.s
-.PHONY : sources/model/RecipeContainer.s
+headers/model/UserContainer.s: headers/model/UserContainer.cpp.s
+.PHONY : headers/model/UserContainer.s
 
 # target to generate assembly for a file
-sources/model/RecipeContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RecipeContainer.cpp.s
-.PHONY : sources/model/RecipeContainer.cpp.s
+headers/model/UserContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/model/UserContainer.cpp.s
+.PHONY : headers/model/UserContainer.cpp.s
 
-sources/model/RecipePage.obj: sources/model/RecipePage.cpp.obj
-.PHONY : sources/model/RecipePage.obj
+headers/views/UserView.obj: headers/views/UserView.cpp.obj
+.PHONY : headers/views/UserView.obj
 
 # target to build an object file
-sources/model/RecipePage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RecipePage.cpp.obj
-.PHONY : sources/model/RecipePage.cpp.obj
+headers/views/UserView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/views/UserView.cpp.obj
+.PHONY : headers/views/UserView.cpp.obj
 
-sources/model/RecipePage.i: sources/model/RecipePage.cpp.i
-.PHONY : sources/model/RecipePage.i
+headers/views/UserView.i: headers/views/UserView.cpp.i
+.PHONY : headers/views/UserView.i
 
 # target to preprocess a source file
-sources/model/RecipePage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RecipePage.cpp.i
-.PHONY : sources/model/RecipePage.cpp.i
+headers/views/UserView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/views/UserView.cpp.i
+.PHONY : headers/views/UserView.cpp.i
 
-sources/model/RecipePage.s: sources/model/RecipePage.cpp.s
-.PHONY : sources/model/RecipePage.s
+headers/views/UserView.s: headers/views/UserView.cpp.s
+.PHONY : headers/views/UserView.s
 
 # target to generate assembly for a file
-sources/model/RecipePage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/RecipePage.cpp.s
-.PHONY : sources/model/RecipePage.cpp.s
+headers/views/UserView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/headers/views/UserView.cpp.s
+.PHONY : headers/views/UserView.cpp.s
 
-sources/model/Recipes.obj: sources/model/Recipes.cpp.obj
-.PHONY : sources/model/Recipes.obj
+sources/controllers/controller.obj: sources/controllers/controller.cpp.obj
+.PHONY : sources/controllers/controller.obj
 
 # target to build an object file
-sources/model/Recipes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Recipes.cpp.obj
-.PHONY : sources/model/Recipes.cpp.obj
+sources/controllers/controller.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/controller.cpp.obj
+.PHONY : sources/controllers/controller.cpp.obj
 
-sources/model/Recipes.i: sources/model/Recipes.cpp.i
-.PHONY : sources/model/Recipes.i
-
-# target to preprocess a source file
-sources/model/Recipes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Recipes.cpp.i
-.PHONY : sources/model/Recipes.cpp.i
-
-sources/model/Recipes.s: sources/model/Recipes.cpp.s
-.PHONY : sources/model/Recipes.s
-
-# target to generate assembly for a file
-sources/model/Recipes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Recipes.cpp.s
-.PHONY : sources/model/Recipes.cpp.s
-
-sources/model/User.obj: sources/model/User.cpp.obj
-.PHONY : sources/model/User.obj
-
-# target to build an object file
-sources/model/User.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/User.cpp.obj
-.PHONY : sources/model/User.cpp.obj
-
-sources/model/User.i: sources/model/User.cpp.i
-.PHONY : sources/model/User.i
+sources/controllers/controller.i: sources/controllers/controller.cpp.i
+.PHONY : sources/controllers/controller.i
 
 # target to preprocess a source file
-sources/model/User.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/User.cpp.i
-.PHONY : sources/model/User.cpp.i
+sources/controllers/controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/controller.cpp.i
+.PHONY : sources/controllers/controller.cpp.i
 
-sources/model/User.s: sources/model/User.cpp.s
-.PHONY : sources/model/User.s
-
-# target to generate assembly for a file
-sources/model/User.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/User.cpp.s
-.PHONY : sources/model/User.cpp.s
-
-sources/model/UserContainer.obj: sources/model/UserContainer.cpp.obj
-.PHONY : sources/model/UserContainer.obj
-
-# target to build an object file
-sources/model/UserContainer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/UserContainer.cpp.obj
-.PHONY : sources/model/UserContainer.cpp.obj
-
-sources/model/UserContainer.i: sources/model/UserContainer.cpp.i
-.PHONY : sources/model/UserContainer.i
-
-# target to preprocess a source file
-sources/model/UserContainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/UserContainer.cpp.i
-.PHONY : sources/model/UserContainer.cpp.i
-
-sources/model/UserContainer.s: sources/model/UserContainer.cpp.s
-.PHONY : sources/model/UserContainer.s
+sources/controllers/controller.s: sources/controllers/controller.cpp.s
+.PHONY : sources/controllers/controller.s
 
 # target to generate assembly for a file
-sources/model/UserContainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/UserContainer.cpp.s
-.PHONY : sources/model/UserContainer.cpp.s
-
-sources/model/Utils.obj: sources/model/Utils.cpp.obj
-.PHONY : sources/model/Utils.obj
-
-# target to build an object file
-sources/model/Utils.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Utils.cpp.obj
-.PHONY : sources/model/Utils.cpp.obj
-
-sources/model/Utils.i: sources/model/Utils.cpp.i
-.PHONY : sources/model/Utils.i
-
-# target to preprocess a source file
-sources/model/Utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Utils.cpp.i
-.PHONY : sources/model/Utils.cpp.i
-
-sources/model/Utils.s: sources/model/Utils.cpp.s
-.PHONY : sources/model/Utils.s
-
-# target to generate assembly for a file
-sources/model/Utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/model/Utils.cpp.s
-.PHONY : sources/model/Utils.cpp.s
-
-sources/views/GroupView.obj: sources/views/GroupView.cpp.obj
-.PHONY : sources/views/GroupView.obj
-
-# target to build an object file
-sources/views/GroupView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/GroupView.cpp.obj
-.PHONY : sources/views/GroupView.cpp.obj
-
-sources/views/GroupView.i: sources/views/GroupView.cpp.i
-.PHONY : sources/views/GroupView.i
-
-# target to preprocess a source file
-sources/views/GroupView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/GroupView.cpp.i
-.PHONY : sources/views/GroupView.cpp.i
-
-sources/views/GroupView.s: sources/views/GroupView.cpp.s
-.PHONY : sources/views/GroupView.s
-
-# target to generate assembly for a file
-sources/views/GroupView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/GroupView.cpp.s
-.PHONY : sources/views/GroupView.cpp.s
-
-sources/views/ProfileView.obj: sources/views/ProfileView.cpp.obj
-.PHONY : sources/views/ProfileView.obj
-
-# target to build an object file
-sources/views/ProfileView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/ProfileView.cpp.obj
-.PHONY : sources/views/ProfileView.cpp.obj
-
-sources/views/ProfileView.i: sources/views/ProfileView.cpp.i
-.PHONY : sources/views/ProfileView.i
-
-# target to preprocess a source file
-sources/views/ProfileView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/ProfileView.cpp.i
-.PHONY : sources/views/ProfileView.cpp.i
-
-sources/views/ProfileView.s: sources/views/ProfileView.cpp.s
-.PHONY : sources/views/ProfileView.s
-
-# target to generate assembly for a file
-sources/views/ProfileView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/ProfileView.cpp.s
-.PHONY : sources/views/ProfileView.cpp.s
-
-sources/views/RatingView.obj: sources/views/RatingView.cpp.obj
-.PHONY : sources/views/RatingView.obj
-
-# target to build an object file
-sources/views/RatingView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/RatingView.cpp.obj
-.PHONY : sources/views/RatingView.cpp.obj
-
-sources/views/RatingView.i: sources/views/RatingView.cpp.i
-.PHONY : sources/views/RatingView.i
-
-# target to preprocess a source file
-sources/views/RatingView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/RatingView.cpp.i
-.PHONY : sources/views/RatingView.cpp.i
-
-sources/views/RatingView.s: sources/views/RatingView.cpp.s
-.PHONY : sources/views/RatingView.s
-
-# target to generate assembly for a file
-sources/views/RatingView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/RatingView.cpp.s
-.PHONY : sources/views/RatingView.cpp.s
-
-sources/views/RecipesView.obj: sources/views/RecipesView.cpp.obj
-.PHONY : sources/views/RecipesView.obj
-
-# target to build an object file
-sources/views/RecipesView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/RecipesView.cpp.obj
-.PHONY : sources/views/RecipesView.cpp.obj
-
-sources/views/RecipesView.i: sources/views/RecipesView.cpp.i
-.PHONY : sources/views/RecipesView.i
-
-# target to preprocess a source file
-sources/views/RecipesView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/RecipesView.cpp.i
-.PHONY : sources/views/RecipesView.cpp.i
-
-sources/views/RecipesView.s: sources/views/RecipesView.cpp.s
-.PHONY : sources/views/RecipesView.s
-
-# target to generate assembly for a file
-sources/views/RecipesView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/RecipesView.cpp.s
-.PHONY : sources/views/RecipesView.cpp.s
-
-sources/views/UserView.obj: sources/views/UserView.cpp.obj
-.PHONY : sources/views/UserView.obj
-
-# target to build an object file
-sources/views/UserView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/UserView.cpp.obj
-.PHONY : sources/views/UserView.cpp.obj
-
-sources/views/UserView.i: sources/views/UserView.cpp.i
-.PHONY : sources/views/UserView.i
-
-# target to preprocess a source file
-sources/views/UserView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/UserView.cpp.i
-.PHONY : sources/views/UserView.cpp.i
-
-sources/views/UserView.s: sources/views/UserView.cpp.s
-.PHONY : sources/views/UserView.s
-
-# target to generate assembly for a file
-sources/views/UserView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/UserView.cpp.s
-.PHONY : sources/views/UserView.cpp.s
-
-sources/views/UtilsView.obj: sources/views/UtilsView.cpp.obj
-.PHONY : sources/views/UtilsView.obj
-
-# target to build an object file
-sources/views/UtilsView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/UtilsView.cpp.obj
-.PHONY : sources/views/UtilsView.cpp.obj
-
-sources/views/UtilsView.i: sources/views/UtilsView.cpp.i
-.PHONY : sources/views/UtilsView.i
-
-# target to preprocess a source file
-sources/views/UtilsView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/UtilsView.cpp.i
-.PHONY : sources/views/UtilsView.cpp.i
-
-sources/views/UtilsView.s: sources/views/UtilsView.cpp.s
-.PHONY : sources/views/UtilsView.s
-
-# target to generate assembly for a file
-sources/views/UtilsView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/views/UtilsView.cpp.s
-.PHONY : sources/views/UtilsView.cpp.s
+sources/controllers/controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TastyApp.dir\build.make CMakeFiles/TastyApp.dir/sources/controllers/controller.cpp.s
+.PHONY : sources/controllers/controller.cpp.s
 
 # Help Target
 help:
@@ -737,81 +521,54 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... TastyApp
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... sources/controllers/GroupController.obj
-	@echo ... sources/controllers/GroupController.i
-	@echo ... sources/controllers/GroupController.s
-	@echo ... sources/controllers/ProfileController.obj
-	@echo ... sources/controllers/ProfileController.i
-	@echo ... sources/controllers/ProfileController.s
-	@echo ... sources/controllers/RatingController.obj
-	@echo ... sources/controllers/RatingController.i
-	@echo ... sources/controllers/RatingController.s
-	@echo ... sources/controllers/RecipesController.obj
-	@echo ... sources/controllers/RecipesController.i
-	@echo ... sources/controllers/RecipesController.s
-	@echo ... sources/controllers/UserController.obj
-	@echo ... sources/controllers/UserController.i
-	@echo ... sources/controllers/UserController.s
-	@echo ... sources/controllers/UtilsController.obj
-	@echo ... sources/controllers/UtilsController.i
-	@echo ... sources/controllers/UtilsController.s
-	@echo ... sources/model/Group.obj
-	@echo ... sources/model/Group.i
-	@echo ... sources/model/Group.s
-	@echo ... sources/model/GroupContainer.obj
-	@echo ... sources/model/GroupContainer.i
-	@echo ... sources/model/GroupContainer.s
-	@echo ... sources/model/Profile.obj
-	@echo ... sources/model/Profile.i
-	@echo ... sources/model/Profile.s
-	@echo ... sources/model/ProfileContainer.obj
-	@echo ... sources/model/ProfileContainer.i
-	@echo ... sources/model/ProfileContainer.s
-	@echo ... sources/model/Rating.obj
-	@echo ... sources/model/Rating.i
-	@echo ... sources/model/Rating.s
-	@echo ... sources/model/RatingContainer.obj
-	@echo ... sources/model/RatingContainer.i
-	@echo ... sources/model/RatingContainer.s
-	@echo ... sources/model/RecipeContainer.obj
-	@echo ... sources/model/RecipeContainer.i
-	@echo ... sources/model/RecipeContainer.s
-	@echo ... sources/model/RecipePage.obj
-	@echo ... sources/model/RecipePage.i
-	@echo ... sources/model/RecipePage.s
-	@echo ... sources/model/Recipes.obj
-	@echo ... sources/model/Recipes.i
-	@echo ... sources/model/Recipes.s
-	@echo ... sources/model/User.obj
-	@echo ... sources/model/User.i
-	@echo ... sources/model/User.s
-	@echo ... sources/model/UserContainer.obj
-	@echo ... sources/model/UserContainer.i
-	@echo ... sources/model/UserContainer.s
-	@echo ... sources/model/Utils.obj
-	@echo ... sources/model/Utils.i
-	@echo ... sources/model/Utils.s
-	@echo ... sources/views/GroupView.obj
-	@echo ... sources/views/GroupView.i
-	@echo ... sources/views/GroupView.s
-	@echo ... sources/views/ProfileView.obj
-	@echo ... sources/views/ProfileView.i
-	@echo ... sources/views/ProfileView.s
-	@echo ... sources/views/RatingView.obj
-	@echo ... sources/views/RatingView.i
-	@echo ... sources/views/RatingView.s
-	@echo ... sources/views/RecipesView.obj
-	@echo ... sources/views/RecipesView.i
-	@echo ... sources/views/RecipesView.s
-	@echo ... sources/views/UserView.obj
-	@echo ... sources/views/UserView.i
-	@echo ... sources/views/UserView.s
-	@echo ... sources/views/UtilsView.obj
-	@echo ... sources/views/UtilsView.i
-	@echo ... sources/views/UtilsView.s
+	@echo ... headers/controllers/Controller.obj
+	@echo ... headers/controllers/Controller.i
+	@echo ... headers/controllers/Controller.s
+	@echo ... headers/exceptions/invalidDataException.obj
+	@echo ... headers/exceptions/invalidDataException.i
+	@echo ... headers/exceptions/invalidDataException.s
+	@echo ... headers/model/Group.obj
+	@echo ... headers/model/Group.i
+	@echo ... headers/model/Group.s
+	@echo ... headers/model/GroupContainer.obj
+	@echo ... headers/model/GroupContainer.i
+	@echo ... headers/model/GroupContainer.s
+	@echo ... headers/model/Profile.obj
+	@echo ... headers/model/Profile.i
+	@echo ... headers/model/Profile.s
+	@echo ... headers/model/ProfileContainer.obj
+	@echo ... headers/model/ProfileContainer.i
+	@echo ... headers/model/ProfileContainer.s
+	@echo ... headers/model/Rating.obj
+	@echo ... headers/model/Rating.i
+	@echo ... headers/model/Rating.s
+	@echo ... headers/model/RatingContainer.obj
+	@echo ... headers/model/RatingContainer.i
+	@echo ... headers/model/RatingContainer.s
+	@echo ... headers/model/Recipe.obj
+	@echo ... headers/model/Recipe.i
+	@echo ... headers/model/Recipe.s
+	@echo ... headers/model/RecipeContainer.obj
+	@echo ... headers/model/RecipeContainer.i
+	@echo ... headers/model/RecipeContainer.s
+	@echo ... headers/model/RecipePage.obj
+	@echo ... headers/model/RecipePage.i
+	@echo ... headers/model/RecipePage.s
+	@echo ... headers/model/Registration.obj
+	@echo ... headers/model/Registration.i
+	@echo ... headers/model/Registration.s
+	@echo ... headers/model/User.obj
+	@echo ... headers/model/User.i
+	@echo ... headers/model/User.s
+	@echo ... headers/model/UserContainer.obj
+	@echo ... headers/model/UserContainer.i
+	@echo ... headers/model/UserContainer.s
+	@echo ... headers/views/UserView.obj
+	@echo ... headers/views/UserView.i
+	@echo ... headers/views/UserView.s
+	@echo ... sources/controllers/controller.obj
+	@echo ... sources/controllers/controller.i
+	@echo ... sources/controllers/controller.s
 .PHONY : help
 
 

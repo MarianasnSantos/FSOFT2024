@@ -7,6 +7,7 @@
 class UserView {
 public:
     void displayUserProfile(const User& user);
+    
 };
 
 
