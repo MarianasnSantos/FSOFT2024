@@ -8,7 +8,7 @@ add_executable(TastyApp
         headers/views/ProfileView.h
         headers/views/RatingView.h
         headers/views/RecipesView.h
-        headers/views/UtilsView.h
+        headers/views/Utils.h
         sources/controllers/controller.cpp
         headers/controllers/Controller.cpp
         headers/controllers/Controller.h
