@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-    App app(TastyApp);
+    App app("TastyApp");
 
     Controller controller(app)
 

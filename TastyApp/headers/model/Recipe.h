@@ -15,13 +15,15 @@ public:
     string getDescription() const;
     void setTitle(const string& title);
     void setDescription(const string& description);
-    void addRating(const Rating& rating);
+    void addRating(const Rating& rating, const string& comment);
     vector<Rating> getRatings() const;
+    vector<string> getComments() const;
 
 private:
     string title;
     string description;
     vector<Rating> ratings;
+    vector<string> comments;
 };
 
 #endif //LASTTEST_LOG_RECIPE_H

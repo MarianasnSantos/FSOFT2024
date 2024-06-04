@@ -13,10 +13,23 @@ string Recipe::getDescription() const {
     return description;
 }
 
-void Recipe::addRating(const Rating& rating) {
+void Recipe::setTitle(const string& title){
+    this->title = title;
+}
+
+void Recipe::setDescription(const string& description){
+    this->description = description;
+}
+
+void Recipe::addRating(const Rating& rating, const string& comment) {
     ratings.push_back(rating);
+    comments.push_back(comment);
 }
 
 vector<Rating> Recipe::getRatings() const {
     return ratings;
+}
+
+vector<string> Recipe::getComments() const {
+    return comments;
 }

@@ -25,11 +25,11 @@ public :
     const string& getName() const;
     void setName(const string &name);
 
-    GroupContainer & getGroupContainer();
-    ProfileContainer & getProfileContainer();
-    RatingContainer & getRatingContainer();
-    RecipeContainer & getRecipeContainer();
-    UserContainer & getUserContainer();
+    GroupContainer& getGroupContainer();
+    ProfileContainer& getProfileContainer();
+    RatingContainer& getRatingContainer();
+    RecipeContainer& getRecipeContainer();
+    UserContainer& getUserContainer();
 };
 
 #endif //FSOFT2024_1DA_5_APP_H
