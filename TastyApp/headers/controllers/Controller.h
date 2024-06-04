@@ -1,4 +1,3 @@
-
 #ifndef LASTTEST_LOG_CONTROLLER_H
 #define LASTTEST_LOG_CONTROLLER_H
 
@@ -14,9 +13,7 @@
 
 using namespace std;
 
-class Controller{
-
-
+class Controller {
 public:
     App model;
     void addUser(const User& user);

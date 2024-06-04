@@ -1,2 +1,1 @@
-
-#include "../../headers/model/App.h"
+#include "App.h"

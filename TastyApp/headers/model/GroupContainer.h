@@ -14,6 +14,4 @@ public:
 private:
     vector <Group> groups;
 };
-
-
 #endif //LASTTEST_LOG_GROUPCONTAINER_H
