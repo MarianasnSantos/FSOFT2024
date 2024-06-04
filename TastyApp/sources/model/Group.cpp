@@ -1,4 +1,4 @@
-#include "../../headers/model/Group.h"
+#include "Group.h"
 
 using namespace std;
 

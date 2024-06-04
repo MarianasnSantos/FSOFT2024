@@ -1,4 +1,4 @@
-#include "../../headers/model/Profile.h"
+#include "Profile.h"
 
 using namespace std;
 

@@ -1,4 +1,4 @@
-#include "../../headers/model/GroupContainer.h"
+#inclue "GroupContainer.h"
 
 using namespace std;
 

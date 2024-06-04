@@ -1,4 +1,4 @@
-#include "../../headers/model/RatingContainer.h"
+#include "RatingContainer.h"
 
 using namespace std;
 

@@ -1,5 +1,3 @@
-//
-// Created by eduba on 03/06/2024.
-//
+#include "Person.h"
 
-#include "../../headers/model/Person.h"
+using namespace std;

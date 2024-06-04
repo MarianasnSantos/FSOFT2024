@@ -1,4 +1,4 @@
-#include "../../headers/model/Recipe.h"
+#include "Recipe.h"
 
 using namespace std;
 

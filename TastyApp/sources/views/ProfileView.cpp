@@ -1,3 +1,3 @@
-//
-// Created by eduba on 03/06/2024.
-//
+#include "ProfileView.h"
+
+using namespace std;
