@@ -8,7 +8,7 @@
 #include "RatingView.h"
 #include "RecipesView.h"
 #include "UserView.h"
-#include "UtilsView.h"
+#include "Utils.h"
 #include "App.h"
 
 using namespace std;

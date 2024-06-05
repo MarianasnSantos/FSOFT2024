@@ -10,7 +10,7 @@ int main() {
 
     Controller controller(app)
 
+    controller.run();
 
-
-
+    return 0;
 }
