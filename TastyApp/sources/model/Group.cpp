@@ -16,6 +16,10 @@ void Group::addUser(const User& user) {
     users.push_back(user);
 }
 
+void Group::removeUser(const string& username) {
+    users.erase(remove_if(users.begin(), users.end(),
+                          [&username](const User& user) { return user.getName() == username; }), users.end());
+}
 vector<User> Group::getUsers() const {
     return users;
 }

@@ -13,6 +13,7 @@ public:
     string getName() const;
     void setName(const string& name);
     void addUser(const User& user);
+    void removeUser(const string& username);
     vector<User> getUsers() const;
 
 private:

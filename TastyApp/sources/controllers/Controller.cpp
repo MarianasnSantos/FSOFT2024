@@ -4,33 +4,30 @@
 
 using namespace std;
 
-Controller::Controller(App& app){
-    this->model = app;
-}
+Controller::Controller(App& app) : model(app) {}
 
-void Controller::run(){
+void Controller::run() {
     int op = -1;
 
     do {
         op = this->view.menuApp();
         switch (op) {
             case 1: runProfile();
-            break;
+                break;
 
             case 2: runRecipes();
-            break;
+                break;
 
-            case 3: runGroups()
-            break;
+            case 3: runGroups();
+                break;
 
             default:
                 break;
         }
-    } while(op != 0);
+    } while (op != 0);
 }
 
-
-void Controller::runProfile(){
+void Controller::runProfile() {
     int op = -1;
 
     do {
@@ -38,122 +35,174 @@ void Controller::runProfile(){
 
         switch (op) {
             case 1: {
-                User user = this->UserView.getUser();
-                UserContainer& container = this->model.getUserContainer();
-                container.add(user);
+                User user = this->userView.getUser();
+                this->model.getUserContainer().addUser(user);
             }
-            break;
+                break;
 
             case 2: {
                 string name = Utils::getString("Enter the user name: ");
-                Date date = this->UserView.getDate();
-                UserContainer& container = this->model.getUserContainer();
-                container.update(name);
+                this->model.getUserContainer().removeUser(name);
             }
-            break;
+                break;
+
+            case 3: {
+                string name = Utils::getString("Enter the user name: ");
+                User updatedUser = this->userView.getUser();
+                this->model.getUserContainer().updateUser(name, updatedUser);
+            }
+                break;
 
             default:
                 break;
         }
-    } while(op != 0);
+    } while (op != 0);
 }
 
-
-
-void Controller::runRecipes(){
+void Controller::runRecipes() {
     int op = -1;
 
     do {
-        op = this->view.menuRecipes();
+        op = this->view.menuRecipe();
 
         switch (op) {
             case 1: {
-                Recipe recipe = this->RecipesView.getRecipes();
-                RecipeContainer& container = this->model.getRecipeContainer();
-                container.add(recipe);
+                Recipe recipe = this->recipesView.getRecipe();
+                this->model.getRecipeContainer().addRecipe(recipe);
             }
-            break;
+                break;
 
             case 2: {
-                string name = Utils::getString("Enter the Recipe name: ");
+                string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                container.update(name);
-            }
+                Recipe* recipe = container.getRecipeByName(name);
 
-            break;
+                if (recipe != nullptr) {
+                    Recipe updatedRecipe = this->recipesView.getRecipe();
+                    recipe->setTitle(updatedRecipe.getTitle());
+                    recipe->setDescription(updatedRecipe.getDescription());
+                } else {
+                    Utils::print("Recipe not found!");
+                }
+            }
+                break;
 
             case 3: {
-                string name = Utils::getString("Enter the Recipe name: ");
+                string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByTitle(name);
+                Recipe* recipe = container.getRecipeByName(name);
 
-                if(recipe != nullptr){
-                    RecipePage page = container.getRecipePage(name);
-                    this->view.showRecipePage(page);
-
-                    Utils::print("Recipe title: " + recipe->getTitle());
-                    Utils::print("Description: " + recipe->getDescription());
-
-                    auto ratings = recipe->getRatings();
-                    auto comments = recipe->getComments();
-
-                    for(size_t i = 0; i < ratings.size(); ++i){
-                        Utils::print("Rating: " + to_string(rating[i].getScore()));
-                        Utils::print("Comment: " + comments[i]);
-                    }
+                if (recipe != nullptr) {
+                    this->view.showRecipe(*recipe);
                 } else {
                     Utils::print("Recipe not found!");
                 }
-
             }
-            break;
+                break;
 
             case 4: {
-                string name = Utils::getString("Enter the Recipe name to rate: ");
-                int rating  = Utils::getNumber("Enter your rating (1-5): ");
-                string comment = Utils::getString("Enter your comment: ");
+                string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByTitle(name);
+                Recipe* recipe = container.getRecipeByName(name);
 
-                if(recipe != nullptr){
-                    Rating newRating(rating);
-                    recipe->addRating(newRating, comment);
+                if (recipe != nullptr) {
+                    int score = Utils::getNumber("Enter your rating (1-5): ");
+                    Rating rating(score);
+                    recipe->addRating(rating);
                 } else {
                     Utils::print("Recipe not found!");
                 }
             }
-            break;
+                break;
+
+            case 5: {
+                string name = Utils::getString("Enter the recipe name: ");
+                RecipeContainer& container = this->model.getRecipeContainer();
+                Recipe* recipe = container.getRecipeByName(name);
+
+                if (recipe != nullptr) {
+                    string comment = Utils::getString("Enter your comment: ");
+                    recipe->addComment(comment);
+                } else {
+                    Utils::print("Recipe not found!");
+                }
+            }
+                break;
+
+            case 6: {
+                string name = Utils::getString("Enter the recipe name: ");
+                RecipeContainer& container = this->model.getRecipeContainer();
+                Recipe* recipe = container.getRecipeByName(name);
+
+                if (recipe != nullptr) {
+                    int ratingIndex = Utils::getNumber("Enter the index of the rating to remove: ");
+                    recipe->removeRating(ratingIndex);
+                } else {
+                    Utils::print("Recipe not found!");
+                }
+            }
+                break;
 
             default:
                 break;
         }
-    } while(op != 0);
+    } while (op != 0);
 }
 
-// FALTA FAZER A FUNÇÃO VOID CONTROLLER::runGROUPS()
+void Controller::runGroups() {
+    int op = -1;
 
-void Controller::runGroups(){}
+    do {
+        op = this->view.menuGroup();
 
+        switch (op) {
+            case 1: { // Create a group
+                string groupName = Utils::getString("Enter the group name: ");
+                Group newGroup(groupName);
+                this->model.getGroupContainer().addGroup(newGroup);
+                Utils::print("Group created successfully!");
+            }
+                break;
 
+            case 2: { // Join a group
+                string groupName = Utils::getString("Enter the group name: ");
+                Group* group = this->model.getGroupContainer().getGroupByName(groupName);
 
+                if (group != nullptr) {
+                    User user = this->userView.getUser();
+                    group->addUser(user);
+                    Utils::print("Joined group successfully!");
+                } else {
+                    Utils::print("Group not found!");
+                }
+            }
+                break;
 
+            case 3: { // Remove a group
+                string groupName = Utils::getString("Enter the group name: ");
+                this->model.getGroupContainer().removeGroup(groupName);
+                Utils::print("Group removed successfully!");
+            }
+                break;
+
+            default:
+                break;
+        }
+    } while (op != 0);
+}
 
 void Controller::addUser(const User& user) {
-    UserContainer& users = this->model.getUserContainer();
-    users.addUser(user);
+    this->model.getUserContainer().addUser(user);
 }
 
 void Controller::addRecipe(const Recipe& recipe) {
-    RecipeContainer& recipes = this->model.getRecipeContainer();
-    recipes.addRecipe(recipe);
+    this->model.getRecipeContainer().addRecipe(recipe);
 }
 
 vector<User> Controller::getUsers() const {
-    UserContainer& users = this->model.getUserContainer();
-    return users.getUsers();
+    return this->model.getUserContainer().getUsers();
 }
 
 vector<Recipe> Controller::getRecipes() const {
-    RecipeContainer& recipes = this->model.getRecipeContainer();
-    return recipes.getRecipes();
+    return this->model.getRecipeContainer().getRecipes();
 }

@@ -15,8 +15,10 @@ public:
     string getDescription() const;
     void setTitle(const string& title);
     void setDescription(const string& description);
-    void addRating(const Rating& rating, const string& comment);
+    void addRating(const Rating& rating);
+    void removeRating(size_t index);
     vector<Rating> getRatings() const;
+    void addComment(const string &comment);
     vector<string> getComments() const;
 
 private:

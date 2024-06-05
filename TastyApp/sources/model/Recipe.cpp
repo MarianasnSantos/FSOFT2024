@@ -21,13 +21,22 @@ void Recipe::setDescription(const string& description){
     this->description = description;
 }
 
-void Recipe::addRating(const Rating& rating, const string& comment) {
+void Recipe::addRating(const Rating& rating) {
     ratings.push_back(rating);
-    comments.push_back(comment);
+}
+
+void Recipe::removeRating(size_t index) {
+    if(index < ratings.size()){
+        ratings.erase(ratings.begin() + index);
+    }
 }
 
 vector<Rating> Recipe::getRatings() const {
     return ratings;
+}
+
+void Recipe::addComment(const int &comment) {
+    comments.push_back(comment);
 }
 
 vector<string> Recipe::getComments() const {
