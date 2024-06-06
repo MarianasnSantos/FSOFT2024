@@ -1,4 +1,6 @@
-#inclue "GroupContainer.h"
+#include "GroupContainer.h"
+#include <string>
+#include <algorithm>
 
 using namespace std;
 
