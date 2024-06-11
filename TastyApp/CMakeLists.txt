@@ -4,6 +4,8 @@ project(TastyApp)
 set(CMAKE_CXX_STANDARD 17)
 
 include_directories(headers)
+include_directories(${CMAKE_SOURCE_DIR}/headers)
+include_directories(${CMAKE_SOURCE_DIR}/sources)
 
 add_executable(TastyApp
         main.cpp
