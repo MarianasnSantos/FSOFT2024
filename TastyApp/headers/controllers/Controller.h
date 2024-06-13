@@ -18,13 +18,7 @@ class Controller {
 public:
     Controller (App &app);
     void run();
-    void runProfile();
-    void runRecipes();
-    void runGroups();
-    void addUser(const User& user);
-    void addRecipe(const Recipe& recipe);
-    vector<User> getUsers() const;
-    vector<Recipe> getRecipes() const;
+
 
 private:
     App &model;
@@ -33,6 +27,13 @@ private:
     RecipesView recipesView;
     UserContainer userContainer;
     RecipeContainer recipeContainer;
+    void runProfile();
+    void runRecipes();
+    void runGroups();
+    void addUser(const User& user);
+    void addRecipe(const Recipe& recipe);
+    vector<User> getUsers() const;
+    vector<Recipe> getRecipes() const;
 };
 
 #endif //LASTTEST_LOG_CONTROLLER_H

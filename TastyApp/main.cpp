@@ -11,5 +11,7 @@ int main() {
 
     controller.run();
 
+    cout << "Application has exited" << endl;
+
     return 0;
 }

@@ -7,6 +7,10 @@ include_directories(headers)
 include_directories(${CMAKE_SOURCE_DIR}/headers)
 include_directories(${CMAKE_SOURCE_DIR}/sources)
 
+# Adicionar subdiretório do Google Test
+add_subdirectory(googletest-main)
+
+# Adicionar o executável principal
 add_executable(TastyApp
         main.cpp
         headers/controllers/Controller.h
@@ -54,3 +58,15 @@ add_executable(TastyApp
         headers/exceptions/InvalidDataException.h
         sources/exceptions/InvalidDataException.cpp
 )
+
+# Adicionar executável de teste
+add_executable(runTests
+        tests/test_main.cpp
+)
+
+# Linkar bibliotecas do Google Test aos testes
+target_link_libraries(runTests gtest gtest_main)
+
+# Adicionar os testes ao CMake
+enable_testing()
+add_test(NAME runTests COMMAND runTests)
