@@ -4,8 +4,6 @@ App::App() : name("TastyApp") {}
 
 App::App(const string &name) : name(name) {}
 
-App::App(const string &obj) : name(obj) {}
-
 const string& App::getName() const {
     return name;
 }

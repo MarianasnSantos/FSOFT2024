@@ -22,7 +22,6 @@ private :
 public :
     App();
     App(const string &name);
-    App(const string &obj);
     const string& getName() const;
     void setName(const string &name);
 

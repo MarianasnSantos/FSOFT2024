@@ -17,5 +17,5 @@ Recipe* RecipeContainer::getRecipeByTitle(const int &title) {
         }
     }
 
-    return nullptr; // retorna nullptr se a receita nao for encontrada
+    return nullptr;
 }
