@@ -66,7 +66,7 @@ int View::menuRecipe() {
         cout << "2 - Update\n";
         cout << "3 - View\n";
         cout << "4 - Rate\n";
-        cout << "5 - Comment\n"
+        cout << "5 - Comment\n";
         cout << "\n0 - EXIT\n";
 
         op = Utils::getNumber("Option: ");
@@ -81,7 +81,7 @@ int View::menuRating() {
     do {
         cout << "\n\n========== Menu Rating ==========\n";
         cout << "1 - Add\n";
-        cout << "2 - Remove\n"
+        cout << "2 - Remove\n";
         cout << "\n0 - EXIT\n";
 
         op = Utils::getNumber("Option: ");

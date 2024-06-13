@@ -35,7 +35,7 @@ vector<Rating> Recipe::getRatings() const {
     return ratings;
 }
 
-void Recipe::addComment(const int &comment) {
+void Recipe::addComment(const string &comment) {
     comments.push_back(comment);
 }
 
