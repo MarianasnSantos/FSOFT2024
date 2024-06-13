@@ -1,6 +1,9 @@
+// controller.cpp
 #include <iostream>
 #include "Controller.h"
 #include "Utils.h"
+#include "App.h"
+#include "View.h"
 
 using namespace std;
 
@@ -191,13 +194,6 @@ void Controller::runGroups() {
     } while (op != 0);
 }
 
-void Controller::addUser(const User& user) {
-    this->model.getUserContainer().addUser(user);
-}
-
-void Controller::addRecipe(const Recipe& recipe) {
-    this->model.getRecipeContainer().addRecipe(recipe);
-}
 
 vector<User> Controller::getUsers() const {
     return this->model.getUserContainer().getUsers();
@@ -206,3 +202,5 @@ vector<User> Controller::getUsers() const {
 vector<Recipe> Controller::getRecipes() const {
     return this->model.getRecipeContainer().getRecipes();
 }
+
+
