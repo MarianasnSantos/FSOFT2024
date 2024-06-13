@@ -7,8 +7,7 @@ using namespace std;
 int main() {
     App app("TastyApp");
 
-    Controller controller(app)
-
+    Controller controller(app);
     controller.run();
 
     return 0;
