@@ -1,6 +1,6 @@
 
-#ifndef TASTYAPP_GROUPVIEW_H
-#define TASTYAPP_GROUPVIEW_H
+#ifndef FSOFT2024_1DA_5_GROUPVIEW_H
+#define FSOFT2024_1DA_5_GROUPVIEW_H
 
 #include <string>
 #include "Group.h"
@@ -21,4 +21,4 @@ public:
     void printGroupNotFound();
 };
 
-#endif //TASTYAPP_GROUPVIEW_H
+#endif //FSOFT2024_1DA_5_GROUPVIEW_H

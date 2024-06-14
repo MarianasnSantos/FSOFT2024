@@ -1,5 +1,5 @@
-#ifndef TASTYAPP_RATINGVIEW_H
-#define TASTYAPP_RATINGVIEW_H
+#ifndef FSOFT2024_1DA_5_RATINGVIEW_H
+#define FSOFT2024_1DA_5_RATINGVIEW_H
 
 #include <string>
 
@@ -16,4 +16,4 @@ public:
     void printRatingNotFound();
 };
 
-#endif //TASTYAPP_RATINGVIEW_H
+#endif //FSOFT2024_1DA_5_RATINGVIEW_H

@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_GROUP_H
-#define LASTTEST_LOG_GROUP_H
+#ifndef FSOFT2024_1DA_5_GROUP_H
+#define FSOFT2024_1DA_5_GROUP_H
 
 #include <string>
 #include <vector>
@@ -20,4 +20,4 @@ private:
     string name;
     vector<User> users;
 };
-#endif //LASTTEST_LOG_GROUP_H
+#endif //FSOFT2024_1DA_5_GROUP_H

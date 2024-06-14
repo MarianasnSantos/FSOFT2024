@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_REGISTRATION_H
-#define LASTTEST_LOG_REGISTRATION_H
+#ifndef FSOFT2024_1DA_5_REGISTRATION_H
+#define FSOFT2024_1DA_5_REGISTRATION_H
 
 #include "User.h"
 #include "Group.h"
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //LASTTEST_LOG_REGISTRATION_H
+#endif //FSOFT2024_1DA_5_REGISTRATION_H

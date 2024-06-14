@@ -1,5 +1,5 @@
-#ifndef TASTYAPP_UTILSVIEW_H
-#define TASTYAPP_UTILSVIEW_H
+#ifndef FSOFT2024_1DA_5_UTILSVIEW_H
+#define FSOFT2024_1DA_5_UTILSVIEW_H
 
 #include <string>
 #include <vector>
@@ -14,4 +14,4 @@ public:
     static vector<string> split(const string& str, char delimiter);
 };
 
-#endif //TASTYAPP_UTILSVIEW_H
+#endif //FSOFT2024_1DA_5_UTILSVIEW_H

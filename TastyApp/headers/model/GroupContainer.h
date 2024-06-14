@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_GROUPCONTAINER_H
-#define LASTTEST_LOG_GROUPCONTAINER_H
+#ifndef FSOFT2024_1DA_5_GROUPCONTAINER_H
+#define FSOFT2024_1DA_5_GROUPCONTAINER_H
 
 #include "Group.h"
 #include <string>
@@ -17,4 +17,4 @@ public:
 private:
     vector <Group> groups;
 };
-#endif //LASTTEST_LOG_GROUPCONTAINER_H
+#endif //FSOFT2024_1DA_5_GROUPCONTAINER_H

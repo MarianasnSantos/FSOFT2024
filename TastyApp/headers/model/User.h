@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_USER_H
-#define LASTTEST_LOG_USER_H
+#ifndef FSOFT2024_1DA_5_USER_H
+#define FSOFT2024_1DA_5_USER_H
 
 #include <string>
 #include <vector>
@@ -22,4 +22,4 @@ private:
     Profile profile;
 };
 
-#endif //LASTTEST_LOG_USER_H
+#endif //FSOFT2024_1DA_5_USER_H

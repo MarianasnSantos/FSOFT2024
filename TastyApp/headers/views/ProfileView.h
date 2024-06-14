@@ -1,5 +1,5 @@
-#ifndef TASTYAPP_PROFILEVIEW_H
-#define TASTYAPP_PROFILEVIEW_H
+#ifndef FSOFT2024_1DA_5_PROFILEVIEW_H
+#define FSOFT2024_1DA_5_PROFILEVIEW_H
 
 #include <string>
 #include "User.h"
@@ -18,4 +18,4 @@ public:
     void printUserNotFound(const string& username);
 };
 
-#endif //TASTYAPP_PROFILEVIEW_H
+#endif //FSOFT2024_1DA_5_PROFILEVIEW_H

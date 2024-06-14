@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_USERVIEW_H
-#define LASTTEST_LOG_USERVIEW_H
+#ifndef FSOFT2024_1DA_5_USERVIEW_H
+#define FSOFT2024_1DA_5_USERVIEW_H
 
 
 #include <string>
@@ -19,4 +19,4 @@ public:
     void printUserNotFound(const string& username);
 };
 
-#endif //LASTTEST_LOG_USERVIEW_H
+#endif //FSOFT2024_1DA_5_USERVIEW_H

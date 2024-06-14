@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_RATING_H
-#define LASTTEST_LOG_RATING_H
+#ifndef FSOFT2024_1DA_5_RATING_H
+#define FSOFT2024_1DA_5_RATING_H
 
 class Rating {
 public:
@@ -11,4 +11,4 @@ private:
     int score;
 };
 
-#endif //LASTTEST_LOG_RATING_H
+#endif //FSOFT2024_1DA_5_RATING_H

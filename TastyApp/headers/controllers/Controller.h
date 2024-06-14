@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_CONTROLLER_H
-#define LASTTEST_LOG_CONTROLLER_H
+#ifndef FSOFT2024_1DA_5_CONTROLLER_H
+#define FSOFT2024_1DA_5_CONTROLLER_H
 
 #include <vector>
 #include "View.h"
@@ -31,4 +31,4 @@ private:
     RecipesView recipesView;
 };
 
-#endif //LASTTEST_LOG_CONTROLLER_H
+#endif //FSOFT2024_1DA_5_CONTROLLER_H

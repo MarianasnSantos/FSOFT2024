@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_RECIPE_H
-#define LASTTEST_LOG_RECIPE_H
+#ifndef FSOFT2024_1DA_5_RECIPE_H
+#define FSOFT2024_1DA_5_RECIPE_H
 
 #include <string>
 #include <vector>
@@ -28,4 +28,4 @@ private:
     vector<string> comments;
 };
 
-#endif //LASTTEST_LOG_RECIPE_H
+#endif //FSOFT2024_1DA_5_RECIPE_H
