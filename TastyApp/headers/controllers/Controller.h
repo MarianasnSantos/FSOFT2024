@@ -11,29 +11,24 @@
 #include "Utils.h"
 #include "App.h"
 
-
-using namespace std;
-
 class Controller {
 public:
-    Controller (App &app);
+    Controller(App& app);
     void run();
-
+    void addUser(const User& user);
+    void addRecipe(const Recipe& recipe);
+    std::vector<User> getUsers() const;
+    std::vector<Recipe> getRecipes() const;
 
 private:
-    App &model;
-    View view;
-    UserView userView;
-    RecipesView recipesView;
-    UserContainer userContainer;
-    RecipeContainer recipeContainer;
     void runProfile();
     void runRecipes();
     void runGroups();
-    void addUser(const User& user);
-    void addRecipe(const Recipe& recipe);
-    vector<User> getUsers() const;
-    vector<Recipe> getRecipes() const;
+
+    App& model;
+    View view;
+    UserView userView;
+    RecipesView recipesView;
 };
 
 #endif //LASTTEST_LOG_CONTROLLER_H

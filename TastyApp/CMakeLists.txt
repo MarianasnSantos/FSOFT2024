@@ -3,66 +3,24 @@ project(TastyApp)
 
 set(CMAKE_CXX_STANDARD 17)
 
+# Adicionar diretórios de cabeçalhos
 include_directories(headers)
-include_directories(${CMAKE_SOURCE_DIR}/headers)
-include_directories(${CMAKE_SOURCE_DIR}/sources)
+include_directories(headers/controllers)
+include_directories(headers/exceptions)
+include_directories(headers/model)
+include_directories(headers/views)
 
 # Adicionar subdiretório do Google Test
 add_subdirectory(googletest-main)
 
+# Adicionar todos os arquivos fonte
+file(GLOB_RECURSE SOURCES "sources/*.cpp")
+
 # Adicionar o executável principal
-add_executable(TastyApp
-        main.cpp
-        headers/controllers/Controller.h
-        sources/controllers/Controller.cpp
-        headers/model/App.h
-        sources/model/App.cpp
-        headers/model/Group.h
-        sources/model/Group.cpp
-        headers/model/GroupContainer.h
-        sources/model/GroupContainer.cpp
-        headers/model/Registration.h
-        sources/model/Registration.cpp
-        headers/model/User.h
-        sources/model/User.cpp
-        headers/model/UserContainer.h
-        sources/model/UserContainer.cpp
-        headers/model/Profile.h
-        sources/model/Profile.cpp
-        headers/model/ProfileContainer.h
-        sources/model/ProfileContainer.cpp
-        headers/model/Recipe.h
-        sources/model/Recipe.cpp
-        headers/model/RecipeContainer.h
-        sources/model/RecipeContainer.cpp
-        headers/model/Rating.h
-        sources/model/Rating.cpp
-        headers/model/RatingContainer.h
-        sources/model/RatingContainer.cpp
-        headers/model/RecipePage.h
-        sources/model/RecipePage.cpp
-        headers/views/View.h
-        headers/views/GroupView.h
-        headers/views/ProfileView.h
-        headers/views/RatingView.h
-        headers/views/RecipesView.h
-        headers/views/UserView.h
-        headers/views/Utils.h
-        sources/views/View.cpp
-        sources/views/GroupView.cpp
-        sources/views/ProfileView.cpp
-        sources/views/RatingView.cpp
-        sources/views/RecipesView.cpp
-        sources/views/UserView.cpp
-        sources/views/Utils.cpp
-        headers/exceptions/InvalidDataException.h
-        sources/exceptions/InvalidDataException.cpp
-)
+add_executable(TastyApp ${SOURCES} main.cpp)
 
 # Adicionar executável de teste
-add_executable(runTests
-        tests/test_main.cpp
-)
+add_executable(runTests tests/test_main.cpp)
 
 # Linkar bibliotecas do Google Test aos testes
 target_link_libraries(runTests gtest gtest_main)

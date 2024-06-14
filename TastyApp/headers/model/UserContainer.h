@@ -1,19 +1,19 @@
-#ifndef LASTTEST_LOG_USERCONTAINER_H
-#define LASTTEST_LOG_USERCONTAINER_H
+#ifndef USERCONTAINER_H
+#define USERCONTAINER_H
 
 #include <vector>
 #include "User.h"
 
-using namespace std;
-
 class UserContainer {
 public:
     void addUser(const User& user);
-    vector<User> getUsers() const;
+    bool removeUser(const std::string& name);
+    bool updateUser(const std::string& name, const User& updatedUser);
+    User* getUserByName(const std::string& name);
+    std::vector<User> getUsers() const;
 
 private:
-    vector <User> users;
+    std::vector<User> users;
 };
 
-
-#endif //LASTTEST_LOG_USERCONTAINER_H
+#endif

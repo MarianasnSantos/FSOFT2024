@@ -1,9 +1,7 @@
-// controller.cpp
+#include "../../headers/controllers/Controller.h"
+#include "../../headers/views/Utils.h"
+#include "C:\Users\eduba\OneDrive\Ambiente de Trabalho\School\1º Ano\2º Semestre\FSOFT\GitHub_FSOFT\FSOFT2024_1DA_5\TastyApp\headers\model\App.h"
 #include <iostream>
-#include "Controller.h"
-#include "Utils.h"
-#include "App.h"
-#include "View.h"
 
 using namespace std;
 
@@ -45,14 +43,14 @@ void Controller::runProfile() {
 
             case 2: {
                 string name = Utils::getString("Enter the user name: ");
-                this->model.getUserContainer().removeUser(name);
+                this->model.getUserContainer().removeUser(name);  // Certifique-se de que a função removeUser existe em UserContainer
             }
                 break;
 
             case 3: {
                 string name = Utils::getString("Enter the user name: ");
                 User updatedUser = this->userView.getUser();
-                this->model.getUserContainer().updateUser(name, updatedUser);
+                this->model.getUserContainer().updateUser(name, updatedUser);  // Certifique-se de que a função updateUser existe em UserContainer
             }
                 break;
 
@@ -78,7 +76,7 @@ void Controller::runRecipes() {
             case 2: {
                 string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByName(name);
+                Recipe* recipe = container.getRecipeByTitle(name);
 
                 if (recipe != nullptr) {
                     Recipe updatedRecipe = this->recipesView.getRecipe();
@@ -93,10 +91,10 @@ void Controller::runRecipes() {
             case 3: {
                 string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByName(name);
+                Recipe* recipe = container.getRecipeByTitle(name);
 
                 if (recipe != nullptr) {
-                    this->view.showRecipe(*recipe);
+                    this->recipesView.showRecipe(*recipe);
                 } else {
                     Utils::print("Recipe not found!");
                 }
@@ -106,7 +104,7 @@ void Controller::runRecipes() {
             case 4: {
                 string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByName(name);
+                Recipe* recipe = container.getRecipeByTitle(name);
 
                 if (recipe != nullptr) {
                     int score = Utils::getNumber("Enter your rating (1-5): ");
@@ -121,7 +119,7 @@ void Controller::runRecipes() {
             case 5: {
                 string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByName(name);
+                Recipe* recipe = container.getRecipeByTitle(name);
 
                 if (recipe != nullptr) {
                     string comment = Utils::getString("Enter your comment: ");
@@ -135,7 +133,7 @@ void Controller::runRecipes() {
             case 6: {
                 string name = Utils::getString("Enter the recipe name: ");
                 RecipeContainer& container = this->model.getRecipeContainer();
-                Recipe* recipe = container.getRecipeByName(name);
+                Recipe* recipe = container.getRecipeByTitle(name);
 
                 if (recipe != nullptr) {
                     int ratingIndex = Utils::getNumber("Enter the index of the rating to remove: ");
@@ -194,13 +192,18 @@ void Controller::runGroups() {
     } while (op != 0);
 }
 
+void Controller::addUser(const User& user) {
+    this->model.getUserContainer().addUser(user);
+}
 
-vector<User> Controller::getUsers() const {
+void Controller::addRecipe(const Recipe& recipe) {
+    this->model.getRecipeContainer().addRecipe(recipe);
+}
+
+std::vector<User> Controller::getUsers() const {
     return this->model.getUserContainer().getUsers();
 }
 
-vector<Recipe> Controller::getRecipes() const {
+std::vector<Recipe> Controller::getRecipes() const {
     return this->model.getRecipeContainer().getRecipes();
 }
-
-
