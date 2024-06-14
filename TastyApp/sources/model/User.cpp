@@ -21,6 +21,11 @@ void User::addRecipe(const Recipe& recipe) {
     recipes.push_back(recipe);
 }
 
+void User::removeRecipe(const string &title) {
+    recipes.erase(remove_if(recipes.begin(), recipes.end(),
+                            [&title](const Recipe& recipe) { return recipe.getTitle() == title; }), recipes.end());
+}
+
 vector<Recipe> User::getRecipes() const {
     return recipes;
 }

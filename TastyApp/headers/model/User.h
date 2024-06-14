@@ -13,6 +13,7 @@ public:
     void setName(const string& name);
     string getName() const;
     void addRecipe(const Recipe& recipe);
+    void removeRecipe(const string &title);
     vector<Recipe> getRecipes() const;
     Profile& getProfile();
 
