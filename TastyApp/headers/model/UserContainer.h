@@ -1,5 +1,5 @@
-#ifndef USERCONTAINER_H
-#define USERCONTAINER_H
+#ifndef FSOFT2024_1DA_5_USERCONTAINER_H
+#define FSOFT2024_1DA_5_USERCONTAINER_H
 
 #include <vector>
 #include "User.h"
@@ -16,4 +16,4 @@ private:
     std::vector<User> users;
 };
 
-#endif
+#endif //FSOFT2024_1DA_5_USERCONTAINER_H

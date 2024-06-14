@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_RECIPECONTAINER_H
-#define LASTTEST_LOG_RECIPECONTAINER_H
+#ifndef FSOFT2024_1DA_5_RECIPECONTAINER_H
+#define FSOFT2024_1DA_5_RECIPECONTAINER_H
 
 #include <vector>
 #include <string>
@@ -18,4 +18,4 @@ private:
     vector <Recipe> recipes;
 };
 
-#endif //LASTTEST_LOG_RECIPECONTAINER_H
+#endif //FSOFT2024_1DA_5_RECIPECONTAINER_H

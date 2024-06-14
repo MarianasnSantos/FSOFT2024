@@ -1,5 +1,5 @@
-#ifndef LASTTEST_LOG_PROFILE_H
-#define LASTTEST_LOG_PROFILE_H
+#ifndef FSOFT2024_1DA_5_PROFILE_H
+#define FSOFT2024_1DA_5_PROFILE_H
 
 #include <string>
 
@@ -15,4 +15,4 @@ private:
     string name;
 };
 
-#endif //LASTTEST_LOG_PROFILE_H
+#endif //FSOFT2024_1DA_5_PROFILE_H

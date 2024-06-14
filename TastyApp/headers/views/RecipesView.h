@@ -1,5 +1,5 @@
-#ifndef TASTYAPP_RECIPESVIEW_H
-#define TASTYAPP_RECIPESVIEW_H
+#ifndef FSOFT2024_1DA_5_RECIPESVIEW_H
+#define FSOFT2024_1DA_5_RECIPESVIEW_H
 
 #include <string>
 #include "Recipe.h"
@@ -19,4 +19,4 @@ public:
     void showRecipe(const Recipe& recipe);
 };
 
-#endif //TASTYAPP_RECIPESVIEW_H
+#endif //FSOFT2024_1DA_5_RECIPESVIEW_H
