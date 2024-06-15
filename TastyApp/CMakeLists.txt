@@ -1,59 +1,72 @@
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.10)
 project(TastyApp)
 
-# Definir o padrão C++ para C++17
-set(CMAKE_CXX_STANDARD 17)
+# Define a variável com o diretório base
+set(BASE_DIR ${CMAKE_SOURCE_DIR}/TastyApp)
 
-# Incluir diretórios de headers
-include_directories(headers)
-include_directories(sources)
-
-include_directories("${PROJECT_SOURCE_DIR}/TastyApp/headers/model")
-include_directories("${PROJECT_SOURCE_DIR}/TastyApp/headers/views")
-include_directories("${PROJECT_SOURCE_DIR}/TastyApp/headers/controllers")
-include_directories("${PROJECT_SOURCE_DIR}/TastyApp/sources/model")
-include_directories("${PROJECT_SOURCE_DIR}/TastyApp/sources/views")
-include_directories("${PROJECT_SOURCE_DIR}/TastyApp/sources/controllers")
-
-
-# Adicionar o executável principal
-add_executable(TastyApp
-        sources/controllers/Controller.cpp
-        sources/model/App.cpp
-        sources/model/Group.cpp
-        sources/model/GroupContainer.cpp
-        sources/model/Registration.cpp
-        sources/model/User.cpp
-        sources/model/UserContainer.cpp
-        sources/model/Profile.cpp
-        sources/model/ProfileContainer.cpp
-        sources/model/Recipe.cpp
-        sources/model/RecipeContainer.cpp
-        sources/model/Rating.cpp
-        sources/model/RatingContainer.cpp
-        sources/model/RecipePage.cpp
-        sources/views/View.cpp
-        sources/views/GroupView.cpp
-        sources/views/ProfileView.cpp
-        sources/views/RatingView.cpp
-        sources/views/RecipesView.cpp
-        sources/views/UserView.cpp
-        sources/views/Utils.cpp
-        sources/exceptions/InvalidDataException.cpp
-        main.cpp
+# Adiciona diretórios de inclusão
+include_directories(
+        ${BASE_DIR}/headers/controllers
+        ${BASE_DIR}/headers/exceptions
+        ${BASE_DIR}/headers/model
+        ${BASE_DIR}/headers/views
 )
 
-# Adicionar diretório do Google Test
-add_subdirectory(googletest-main)
-
-# Adicionar o executável de testes
-add_executable(runTests
-        tests/test_main.cpp
+# Adiciona os arquivos fonte
+set(SOURCES
+        ${BASE_DIR}/sources/controllers/Controller.cpp
+        ${BASE_DIR}/sources/exceptions/invalidDataException.cpp
+        ${BASE_DIR}/sources/models/App.cpp
+        ${BASE_DIR}/sources/models/Group.cpp
+        ${BASE_DIR}/sources/models/GroupContainer.cpp
+        ${BASE_DIR}/sources/models/Person.cpp
+        ${BASE_DIR}/sources/models/Profile.cpp
+        ${BASE_DIR}/sources/models/ProfileContainer.cpp
+        ${BASE_DIR}/sources/models/Rating.cpp
+        ${BASE_DIR}/sources/models/RatingContainer.cpp
+        ${BASE_DIR}/sources/models/Recipe.cpp
+        ${BASE_DIR}/sources/models/RecipeContainer.cpp
+        ${BASE_DIR}/sources/models/RecipePage.cpp
+        ${BASE_DIR}/sources/models/Registration.cpp
+        ${BASE_DIR}/sources/models/User.cpp
+        ${BASE_DIR}/sources/models/UserContainer.cpp
+        ${BASE_DIR}/sources/views/GroupView.cpp
+        ${BASE_DIR}/sources/views/ProfileView.cpp
+        ${BASE_DIR}/sources/views/RatingView.cpp
+        ${BASE_DIR}/sources/views/RecipesView.cpp
+        ${BASE_DIR}/sources/views/UserView.cpp
+        ${BASE_DIR}/sources/views/Utils.cpp
+        ${BASE_DIR}/sources/views/View.cpp
+        ${BASE_DIR}/main.cpp
 )
 
-# Linkar bibliotecas do Google Test aos testes
-target_link_libraries(runTests gtest gtest_main)
+# Adiciona o executável principal
+add_executable(TastyApp ${SOURCES})
 
-# Adicionar os testes ao CMake
+# Configuração do Google Test
+# Baixa o Google Test se necessário
+include(FetchContent)
+FetchContent_Declare(
+        googletest
+        GIT_REPOSITORY https://github.com/google/googletest.git
+        GIT_TAG release-1.12.1
+)
+# Desativa a instalação de testes por padrão
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+set(BUILD_GMOCK ON)
+set(BUILD_GTEST ON)
+FetchContent_MakeAvailable(googletest)
+
+# Adiciona o diretório de testes
+add_subdirectory(${BASE_DIR}/tests)
+
+# Adiciona testes
 enable_testing()
-add_test(NAME runTests COMMAND runTests)
+
+# Adiciona o executável de testes
+add_executable(runTests
+        ${BASE_DIR}/tests/test_main.cpp
+)
+
+# Linka o executável de testes com o Google Test
+target_link_libraries(runTests gtest gtest_main)

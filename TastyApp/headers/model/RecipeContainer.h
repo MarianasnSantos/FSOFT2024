@@ -11,8 +11,9 @@ using namespace std;
 class RecipeContainer {
 public:
     void addRecipe(const Recipe& recipe);
-    vector<Recipe> getRecipes() const;
+    void removeRecipeByName(const string &title);
     Recipe* getRecipeByTitle(const string& title);
+    vector<Recipe>& getRecipes() const;
 
 private:
     vector <Recipe> recipes;
