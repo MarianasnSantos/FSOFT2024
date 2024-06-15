@@ -1,6 +1,6 @@
 #include "../../headers/controllers/Controller.h"
 #include "../../headers/views/Utils.h"
-#include "C:\Users\eduba\OneDrive\Ambiente de Trabalho\School\1º Ano\2º Semestre\FSOFT\GitHub_FSOFT\FSOFT2024_1DA_5\TastyApp\headers\model\App.h"
+#include "headers\model\App.h"
 #include <iostream>
 
 using namespace std;
