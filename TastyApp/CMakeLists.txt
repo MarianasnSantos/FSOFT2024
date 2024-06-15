@@ -8,6 +8,14 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(headers)
 include_directories(sources)
 
+include_directories("${PROJECT_SOURCE_DIR}/TastyApp/headers/model")
+include_directories("${PROJECT_SOURCE_DIR}/TastyApp/headers/views")
+include_directories("${PROJECT_SOURCE_DIR}/TastyApp/headers/controllers")
+include_directories("${PROJECT_SOURCE_DIR}/TastyApp/sources/model")
+include_directories("${PROJECT_SOURCE_DIR}/TastyApp/sources/views")
+include_directories("${PROJECT_SOURCE_DIR}/TastyApp/sources/controllers")
+
+
 # Adicionar o executável principal
 add_executable(TastyApp
         sources/controllers/Controller.cpp

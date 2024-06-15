@@ -11,7 +11,6 @@ protected:
     bool isNameValid(const string& name);
 public:
     Person(const string& name);
-    Person(const string& person);
     ~Person();
     const string& getName() const;
     void setName(const string &name);

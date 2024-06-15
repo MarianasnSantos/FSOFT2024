@@ -1,6 +1,6 @@
 #include <iostream>
-#include "App.h"
-#include "Controller.h"
+#include "headers/model/App.h"
+#include "headers/controllers/Controller.h"
 
 using namespace std;
 
